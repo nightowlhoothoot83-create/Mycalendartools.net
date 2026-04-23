@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getMoonData } from '../src/lib/moonPhases.js';
-
+import zodiac = null;
 import '../scripts/generateCalendarICS.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -153,7 +153,7 @@ for (const item of uniqueHolidays) {
   const knownForUrl = `/what-is-${monthNames[item.month - 1].toLowerCase()}-${item.day}-known-for`;
   const dateObj = calcDateYear(item.month, item.day);
   const moon = getMoonData(dateObj);
-  const zodiac = getZodiacInfo(dateObj);
+  const zodiac = null;
   const { events, birthdays } = getFacts(item.month, item.day);
   writePage(holidayUrl, renderKnowledgePage({
     title: `${item.name} | MyCalendarTools`,
