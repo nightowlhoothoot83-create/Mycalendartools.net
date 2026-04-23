@@ -1,0 +1,15 @@
+---
+const { percent = 50, label = 'Year progress' } = Astro.props;
+---
+<div class="card">
+  <div style="display:flex;justify-content:space-between;gap:10px;align-items:end;margin-bottom:10px">
+    <div>
+      <div class="small">📊 {label}</div>
+      <div class="mega">{percent}%</div>
+    </div>
+    <div class="small">Animated progress</div>
+  </div>
+  <div class="progress-shell" aria-label={label}>
+    <div class="progress-fill" style={`width:${percent}%`}></div>
+  </div>
+</div>

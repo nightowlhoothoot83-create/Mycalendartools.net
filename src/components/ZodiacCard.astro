@@ -1,0 +1,15 @@
+---
+import { getZodiac, getHoroscope } from '../lib/zodiac.js';
+const { date = new Date() } = Astro.props;
+const zodiac = getZodiac(date);
+---
+<div class="card">
+  <div class="small">🔮 Zodiac spotlight</div>
+  <h3 style="margin-top:10px">{zodiac.sign}</h3>
+  <p>{zodiac.element} sign · ruled by {zodiac.planet}</p>
+  <p><strong>Lucky numbers:</strong> {zodiac.luckyNumbers.join(', ')}<br/>
+    <strong>Lucky colors:</strong> {zodiac.luckyColors.join(', ')}<br/>
+    <strong>Lucky stone:</strong> {zodiac.luckyStones.join(', ')} · <strong>Flower:</strong> {zodiac.luckyFlowers.join(', ')}</p>
+  <p class="small"><strong>Compatibility:</strong> {zodiac.compatibility.join(' & ')}</p>
+  <div class="muted-box" style="margin-top:10px">{getHoroscope(zodiac.sign)}</div>
+</div>

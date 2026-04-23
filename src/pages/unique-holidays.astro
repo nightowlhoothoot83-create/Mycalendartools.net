@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import uniqueHolidays from '../data/uniqueHolidays.json';
+const featured = uniqueHolidays.slice(0, 24);
+---
+<BaseLayout title="Unique Holidays Archive | MyCalendarTools" description="Browse quirky, fun, and memorable holidays for dates across the year.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Unique Holidays</span></div>
+    <h1>🎉 Unique holidays archive</h1>
+    <p>Daily holiday pages give MyCalendarTools more than just utility. They turn ordinary dates into searchable, shareable reasons to return.</p>
+  </div>
+
+  <section class="section">
+    <div class="tool-grid">
+      {featured.map((item) => {
+        const slug = `${String(item.month).padStart(2,'0')}-${String(item.day).padStart(2,'0')}`;
+        return (
+          <a class="card tool-card" href={`/unique-holidays/${slug}`}>
+            <span class="icon">✨</span>
+            <span class="title">{item.name}</span>
+            <p>{item.description}</p>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <section class="section grid grid-2">
+    <div class="card">
+      <h2>How this section grows traffic</h2>
+      <p>Holiday curiosity is shareable and seasonal. These pages work well for social content, classroom ideas, daily newsletters, and “what is today known for?” style searches.</p>
+    </div>
+    <div class="card">
+      <h2>Explore more</h2>
+      <div class="related-links">
+        <a href="/special-dates">Special Dates</a>
+        <a href="/countdowns">Featured Countdowns</a>
+        <a href="/moon-phase">Moon Phase</a>
+        <a href="/zodiac">Zodiac</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

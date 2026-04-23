@@ -1,0 +1,11 @@
+---
+const { url = Astro.url.href, title = 'MyCalendarTools' } = Astro.props;
+const encodedUrl = encodeURIComponent(url);
+const encodedTitle = encodeURIComponent(title);
+---
+<div class="button-row no-print">
+  <a class="btn secondary" href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`} target="_blank" rel="noreferrer">𝕏 Share</a>
+  <a class="btn secondary" href={`https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`} target="_blank" rel="noreferrer">f Share</a>
+  <a class="btn secondary" href={`https://wa.me/?text=${encodedTitle}%20${encodedUrl}`} target="_blank" rel="noreferrer">WhatsApp</a>
+  <button class="btn dark" onclick={`navigator.clipboard.writeText(${JSON.stringify(url)})`}>Copy Link</button>
+</div>

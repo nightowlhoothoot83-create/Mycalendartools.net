@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { SIGNS } from '../lib/zodiac.js';
+---
+<BaseLayout title="Zodiac Sign Finder & Horoscope | MyCalendarTools" description="Pick your birthday and get a full zodiac profile, compatibility, lucky colours, and a fun daily horoscope.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Zodiac</span></div>
+    <h1>🔮 Zodiac Sign Finder</h1>
+    <p>Pick your birthday to get your zodiac sign, date range, ruling planet, element, lucky numbers and colours, plus a quick daily horoscope line.</p>
+  </div>
+  <div class="grid grid-2 section">
+    <div class="card">
+      <div class="field"><label for="birthday">Your birthday</label><input id="birthday" type="date" /></div>
+      <button class="btn" id="zodiacBtn">Show my zodiac profile</button>
+      <div id="zodiacResult" class="result"></div>
+    </div>
+    <div class="card">
+      <h2>Sign ranges</h2>
+      <div class="grid">
+        {SIGNS.map((sign) => <div class="muted-box"><strong>{sign.sign}</strong> · {sign.start[0]}/{sign.start[1]} to {sign.end[0]}/{sign.end[1]} · {sign.element}</div>)}
+      </div>
+    </div>
+  </div>
+  <script is:inline define:vars={{ SIGNS }}>
+    const birthday = document.getElementById('birthday');
+    birthday.value = new Date().toISOString().slice(0,10);
+    function getSign(dateStr){
+      const date = new Date(dateStr); const month = date.getMonth()+1; const day = date.getDate();
+      return SIGNS.find(({start,end}) => {
+        const [sm,sd] = start, [em,ed] = end;
+        if (sm <= em) return (month > sm || (month === sm && day >= sd)) && (month < em || (month === em && day <= ed));
+        return (month > sm || (month === sm && day >= sd)) || (month < em || (month === em && day <= ed));
+      });
+    }
+    const horoscopes = {
+      Aries:'Lead with action and then simplify.',
+      Taurus:'Choose steady progress over noise.',
+      Gemini:'A smart conversation opens a door.',
+      Cancer:'Protect your energy and your schedule.',
+      Leo:'Visibility matters — keep it useful.',
+      Virgo:'Sort the details, then ship it.',
+      Libra:'One clear decision will calm the day.',
+      Scorpio:'Back your instinct with evidence.',
+      Sagittarius:'Turn inspiration into a practical move.',
+      Capricorn:'Consistency is your edge.',
+      Aquarius:'Your different angle is useful today.',
+      Pisces:'Rest and intuition can work together.'
+    };
+    document.getElementById('zodiacBtn').addEventListener('click',() => {
+      const sign = getSign(birthday.value);
+      document.getElementById('zodiacResult').innerHTML = `<div class="mega">${sign.sign}</div>
+      <p>${sign.element} sign · ruled by ${sign.planet}</p>
+      <p><strong>Lucky numbers:</strong> ${sign.luckyNumbers.join(', ')}<br/>
+      <strong>Lucky colours:</strong> ${sign.luckyColors.join(', ')}<br/>
+      <strong>Lucky stones:</strong> ${sign.luckyStones.join(', ')}<br/>
+      <strong>Lucky flowers:</strong> ${sign.luckyFlowers.join(', ')}<br/>
+      <strong>Best compatibility:</strong> ${sign.compatibility.join(' & ')}</p>
+      <div class="muted-box">${horoscopes[sign.sign]}</div>`;
+    });
+    document.getElementById('zodiacBtn').click();
+  </script>
+</BaseLayout>

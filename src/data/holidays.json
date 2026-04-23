@@ -1,0 +1,2115 @@
+{
+  "generated": "pattern-based-planning-calendars",
+  "disclaimer": "School holiday dates are planning-friendly modeled calendars based on common patterns. Verify official local education authority dates before booking travel or childcare.",
+  "years": {
+    "2025": {
+      "usa": {
+        "name": "United States",
+        "regions": {
+          "ny": {
+            "name": "New York",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2025-03-17",
+                "end": "2025-03-23",
+                "days": 7,
+                "description": "Spring Break planning window for New York, United States in 2025."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2025-06-12",
+                "end": "2025-08-25",
+                "days": 75,
+                "description": "Summer Break planning window for New York, United States in 2025."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2025-11-25",
+                "end": "2025-12-01",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for New York, United States in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-22",
+                "end": "2026-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for New York, United States in 2025."
+              }
+            ]
+          },
+          "ca": {
+            "name": "California",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2025-03-17",
+                "end": "2025-03-23",
+                "days": 7,
+                "description": "Spring Break planning window for California, United States in 2025."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2025-06-05",
+                "end": "2025-08-25",
+                "days": 82,
+                "description": "Summer Break planning window for California, United States in 2025."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2025-11-25",
+                "end": "2025-12-01",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for California, United States in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-22",
+                "end": "2026-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for California, United States in 2025."
+              }
+            ]
+          },
+          "tx": {
+            "name": "Texas",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2025-03-10",
+                "end": "2025-03-16",
+                "days": 7,
+                "description": "Spring Break planning window for Texas, United States in 2025."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2025-05-26",
+                "end": "2025-08-18",
+                "days": 85,
+                "description": "Summer Break planning window for Texas, United States in 2025."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2025-11-25",
+                "end": "2025-12-01",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for Texas, United States in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-22",
+                "end": "2026-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for Texas, United States in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "uk": {
+        "name": "United Kingdom",
+        "regions": {
+          "england": {
+            "name": "England",
+            "breaks": [
+              {
+                "name": "Mid-Term Break",
+                "start": "2025-02-10",
+                "end": "2025-02-16",
+                "days": 7,
+                "description": "Mid-Term Break planning window for England, United Kingdom in 2025."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2025-04-17",
+                "end": "2025-05-03",
+                "days": 17,
+                "description": "Easter Break planning window for England, United Kingdom in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-07-18",
+                "end": "2025-09-02",
+                "days": 47,
+                "description": "Summer Holidays planning window for England, United Kingdom in 2025."
+              },
+              {
+                "name": "Autumn Half-Term",
+                "start": "2025-10-27",
+                "end": "2025-11-02",
+                "days": 7,
+                "description": "Autumn Half-Term planning window for England, United Kingdom in 2025."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2025-12-20",
+                "end": "2026-01-04",
+                "days": 16,
+                "description": "Christmas Break planning window for England, United Kingdom in 2025."
+              }
+            ]
+          },
+          "scotland": {
+            "name": "Scotland",
+            "breaks": [
+              {
+                "name": "Mid-Term Break",
+                "start": "2025-02-03",
+                "end": "2025-02-09",
+                "days": 7,
+                "description": "Mid-Term Break planning window for Scotland, United Kingdom in 2025."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2025-04-17",
+                "end": "2025-05-03",
+                "days": 17,
+                "description": "Easter Break planning window for Scotland, United Kingdom in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-07-04",
+                "end": "2025-09-16",
+                "days": 75,
+                "description": "Summer Holidays planning window for Scotland, United Kingdom in 2025."
+              },
+              {
+                "name": "Autumn Half-Term",
+                "start": "2025-10-13",
+                "end": "2025-10-19",
+                "days": 7,
+                "description": "Autumn Half-Term planning window for Scotland, United Kingdom in 2025."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2025-12-21",
+                "end": "2026-01-04",
+                "days": 15,
+                "description": "Christmas Break planning window for Scotland, United Kingdom in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "australia": {
+        "name": "Australia",
+        "regions": {
+          "nsw": {
+            "name": "New South Wales",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2025-01-01",
+                "end": "2025-01-29",
+                "days": 29,
+                "description": "Summer Holidays planning window for New South Wales, Australia in 2025."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2025-04-13",
+                "end": "2025-04-27",
+                "days": 15,
+                "description": "Autumn Holidays planning window for New South Wales, Australia in 2025."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2025-06-23",
+                "end": "2025-07-06",
+                "days": 14,
+                "description": "Winter Holidays planning window for New South Wales, Australia in 2025."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2025-09-22",
+                "end": "2025-10-05",
+                "days": 14,
+                "description": "Spring Holidays planning window for New South Wales, Australia in 2025."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2025-12-12",
+                "end": "2026-01-28",
+                "days": 48,
+                "description": "Summer Break planning window for New South Wales, Australia in 2025."
+              }
+            ]
+          },
+          "vic": {
+            "name": "Victoria",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2025-01-01",
+                "end": "2025-01-28",
+                "days": 28,
+                "description": "Summer Holidays planning window for Victoria, Australia in 2025."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2025-04-13",
+                "end": "2025-04-27",
+                "days": 15,
+                "description": "Autumn Holidays planning window for Victoria, Australia in 2025."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2025-06-23",
+                "end": "2025-07-06",
+                "days": 14,
+                "description": "Winter Holidays planning window for Victoria, Australia in 2025."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2025-09-22",
+                "end": "2025-10-05",
+                "days": 14,
+                "description": "Spring Holidays planning window for Victoria, Australia in 2025."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2025-12-12",
+                "end": "2026-01-28",
+                "days": 48,
+                "description": "Summer Break planning window for Victoria, Australia in 2025."
+              }
+            ]
+          },
+          "qld": {
+            "name": "Queensland",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2025-01-01",
+                "end": "2025-01-26",
+                "days": 26,
+                "description": "Summer Holidays planning window for Queensland, Australia in 2025."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2025-04-13",
+                "end": "2025-04-27",
+                "days": 15,
+                "description": "Autumn Holidays planning window for Queensland, Australia in 2025."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2025-06-30",
+                "end": "2025-07-13",
+                "days": 14,
+                "description": "Winter Holidays planning window for Queensland, Australia in 2025."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2025-09-15",
+                "end": "2025-09-28",
+                "days": 14,
+                "description": "Spring Holidays planning window for Queensland, Australia in 2025."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2025-12-12",
+                "end": "2026-01-26",
+                "days": 46,
+                "description": "Summer Break planning window for Queensland, Australia in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "canada": {
+        "name": "Canada",
+        "regions": {
+          "on": {
+            "name": "Ontario",
+            "breaks": [
+              {
+                "name": "March Break",
+                "start": "2025-03-10",
+                "end": "2025-03-16",
+                "days": 7,
+                "description": "March Break planning window for Ontario, Canada in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-06-28",
+                "end": "2025-09-01",
+                "days": 66,
+                "description": "Summer Holidays planning window for Ontario, Canada in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-20",
+                "end": "2026-01-04",
+                "days": 16,
+                "description": "Winter Break planning window for Ontario, Canada in 2025."
+              }
+            ]
+          },
+          "bc": {
+            "name": "British Columbia",
+            "breaks": [
+              {
+                "name": "March Break",
+                "start": "2025-03-17",
+                "end": "2025-03-23",
+                "days": 7,
+                "description": "March Break planning window for British Columbia, Canada in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-06-27",
+                "end": "2025-09-01",
+                "days": 67,
+                "description": "Summer Holidays planning window for British Columbia, Canada in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-20",
+                "end": "2026-01-04",
+                "days": 16,
+                "description": "Winter Break planning window for British Columbia, Canada in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "new-zealand": {
+        "name": "New Zealand",
+        "regions": {
+          "auk": {
+            "name": "Auckland",
+            "breaks": [
+              {
+                "name": "Term 1 Holidays",
+                "start": "2025-04-14",
+                "end": "2025-04-27",
+                "days": 14,
+                "description": "Term 1 Holidays planning window for Auckland, New Zealand in 2025."
+              },
+              {
+                "name": "Term 2 Holidays",
+                "start": "2025-07-14",
+                "end": "2025-07-27",
+                "days": 14,
+                "description": "Term 2 Holidays planning window for Auckland, New Zealand in 2025."
+              },
+              {
+                "name": "Term 3 Holidays",
+                "start": "2025-09-22",
+                "end": "2025-10-05",
+                "days": 14,
+                "description": "Term 3 Holidays planning window for Auckland, New Zealand in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-12-19",
+                "end": "2026-01-27",
+                "days": 40,
+                "description": "Summer Holidays planning window for Auckland, New Zealand in 2025."
+              }
+            ]
+          },
+          "wgn": {
+            "name": "Wellington",
+            "breaks": [
+              {
+                "name": "Term 1 Holidays",
+                "start": "2025-04-14",
+                "end": "2025-04-27",
+                "days": 14,
+                "description": "Term 1 Holidays planning window for Wellington, New Zealand in 2025."
+              },
+              {
+                "name": "Term 2 Holidays",
+                "start": "2025-07-14",
+                "end": "2025-07-27",
+                "days": 14,
+                "description": "Term 2 Holidays planning window for Wellington, New Zealand in 2025."
+              },
+              {
+                "name": "Term 3 Holidays",
+                "start": "2025-09-22",
+                "end": "2025-10-05",
+                "days": 14,
+                "description": "Term 3 Holidays planning window for Wellington, New Zealand in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-12-18",
+                "end": "2026-01-27",
+                "days": 41,
+                "description": "Summer Holidays planning window for Wellington, New Zealand in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "south-africa": {
+        "name": "South Africa",
+        "regions": {
+          "gp": {
+            "name": "Gauteng",
+            "breaks": [
+              {
+                "name": "Autumn Break",
+                "start": "2025-03-24",
+                "end": "2025-03-31",
+                "days": 8,
+                "description": "Autumn Break planning window for Gauteng, South Africa in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-06-23",
+                "end": "2025-07-07",
+                "days": 15,
+                "description": "Winter Break planning window for Gauteng, South Africa in 2025."
+              },
+              {
+                "name": "Spring Break",
+                "start": "2025-09-22",
+                "end": "2025-09-29",
+                "days": 8,
+                "description": "Spring Break planning window for Gauteng, South Africa in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-12-10",
+                "end": "2026-01-12",
+                "days": 34,
+                "description": "Summer Holidays planning window for Gauteng, South Africa in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "germany": {
+        "name": "Germany",
+        "regions": {
+          "by": {
+            "name": "Bavaria",
+            "breaks": [
+              {
+                "name": "Carnival Break",
+                "start": "2025-03-03",
+                "end": "2025-03-07",
+                "days": 5,
+                "description": "Carnival Break planning window for Bavaria, Germany in 2025."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2025-04-18",
+                "end": "2025-04-29",
+                "days": 12,
+                "description": "Easter Break planning window for Bavaria, Germany in 2025."
+              },
+              {
+                "name": "Pentecost Break",
+                "start": "2025-06-08",
+                "end": "2025-06-21",
+                "days": 14,
+                "description": "Pentecost Break planning window for Bavaria, Germany in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-08-01",
+                "end": "2025-09-11",
+                "days": 42,
+                "description": "Summer Holidays planning window for Bavaria, Germany in 2025."
+              },
+              {
+                "name": "Autumn Break",
+                "start": "2025-10-31",
+                "end": "2025-11-06",
+                "days": 7,
+                "description": "Autumn Break planning window for Bavaria, Germany in 2025."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2025-12-22",
+                "end": "2026-01-05",
+                "days": 15,
+                "description": "Christmas Break planning window for Bavaria, Germany in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "france": {
+        "name": "France",
+        "regions": {
+          "paris-zone-c": {
+            "name": "Paris Zone C",
+            "breaks": [
+              {
+                "name": "Winter Holidays",
+                "start": "2025-02-08",
+                "end": "2025-02-21",
+                "days": 14,
+                "description": "Winter Holidays planning window for Paris Zone C, France in 2025."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2025-04-12",
+                "end": "2025-04-25",
+                "days": 14,
+                "description": "Spring Holidays planning window for Paris Zone C, France in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-07-05",
+                "end": "2025-08-31",
+                "days": 58,
+                "description": "Summer Holidays planning window for Paris Zone C, France in 2025."
+              },
+              {
+                "name": "All Saints Break",
+                "start": "2025-10-18",
+                "end": "2025-10-31",
+                "days": 14,
+                "description": "All Saints Break planning window for Paris Zone C, France in 2025."
+              },
+              {
+                "name": "Christmas Holidays",
+                "start": "2025-12-20",
+                "end": "2026-01-04",
+                "days": 16,
+                "description": "Christmas Holidays planning window for Paris Zone C, France in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "spain": {
+        "name": "Spain",
+        "regions": {
+          "madrid": {
+            "name": "Madrid",
+            "breaks": [
+              {
+                "name": "Easter Holidays",
+                "start": "2025-04-13",
+                "end": "2025-04-23",
+                "days": 11,
+                "description": "Easter Holidays planning window for Madrid, Spain in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-06-22",
+                "end": "2025-09-07",
+                "days": 78,
+                "description": "Summer Holidays planning window for Madrid, Spain in 2025."
+              },
+              {
+                "name": "Christmas Holidays",
+                "start": "2025-12-22",
+                "end": "2026-01-07",
+                "days": 17,
+                "description": "Christmas Holidays planning window for Madrid, Spain in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "thailand": {
+        "name": "Thailand",
+        "regions": {
+          "bangkok": {
+            "name": "Bangkok",
+            "breaks": [
+              {
+                "name": "Summer Break",
+                "start": "2025-03-10",
+                "end": "2025-05-15",
+                "days": 67,
+                "description": "Summer Break planning window for Bangkok, Thailand in 2025."
+              },
+              {
+                "name": "Mid-Year Break",
+                "start": "2025-10-01",
+                "end": "2025-10-31",
+                "days": 31,
+                "description": "Mid-Year Break planning window for Bangkok, Thailand in 2025."
+              },
+              {
+                "name": "New Year Break",
+                "start": "2025-12-24",
+                "end": "2026-01-06",
+                "days": 14,
+                "description": "New Year Break planning window for Bangkok, Thailand in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "japan": {
+        "name": "Japan",
+        "regions": {
+          "tokyo": {
+            "name": "Tokyo",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2025-03-25",
+                "end": "2025-04-05",
+                "days": 12,
+                "description": "Spring Break planning window for Tokyo, Japan in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-07-21",
+                "end": "2025-08-31",
+                "days": 42,
+                "description": "Summer Holidays planning window for Tokyo, Japan in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-26",
+                "end": "2026-01-07",
+                "days": 13,
+                "description": "Winter Break planning window for Tokyo, Japan in 2025."
+              }
+            ]
+          }
+        }
+      },
+      "south-korea": {
+        "name": "South Korea",
+        "regions": {
+          "seoul": {
+            "name": "Seoul",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2025-02-10",
+                "end": "2025-02-17",
+                "days": 8,
+                "description": "Spring Break planning window for Seoul, South Korea in 2025."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2025-07-24",
+                "end": "2025-08-16",
+                "days": 24,
+                "description": "Summer Holidays planning window for Seoul, South Korea in 2025."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2025-12-27",
+                "end": "2026-02-01",
+                "days": 37,
+                "description": "Winter Break planning window for Seoul, South Korea in 2025."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2026": {
+      "usa": {
+        "name": "United States",
+        "regions": {
+          "ny": {
+            "name": "New York",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2026-03-16",
+                "end": "2026-03-22",
+                "days": 7,
+                "description": "Spring Break planning window for New York, United States in 2026."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2026-06-12",
+                "end": "2026-08-24",
+                "days": 74,
+                "description": "Summer Break planning window for New York, United States in 2026."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2026-11-24",
+                "end": "2026-11-30",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for New York, United States in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-22",
+                "end": "2027-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for New York, United States in 2026."
+              }
+            ]
+          },
+          "ca": {
+            "name": "California",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2026-03-16",
+                "end": "2026-03-22",
+                "days": 7,
+                "description": "Spring Break planning window for California, United States in 2026."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2026-06-05",
+                "end": "2026-08-24",
+                "days": 81,
+                "description": "Summer Break planning window for California, United States in 2026."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2026-11-24",
+                "end": "2026-11-30",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for California, United States in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-22",
+                "end": "2027-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for California, United States in 2026."
+              }
+            ]
+          },
+          "tx": {
+            "name": "Texas",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2026-03-09",
+                "end": "2026-03-15",
+                "days": 7,
+                "description": "Spring Break planning window for Texas, United States in 2026."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2026-05-25",
+                "end": "2026-08-17",
+                "days": 85,
+                "description": "Summer Break planning window for Texas, United States in 2026."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2026-11-24",
+                "end": "2026-11-30",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for Texas, United States in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-22",
+                "end": "2027-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for Texas, United States in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "uk": {
+        "name": "United Kingdom",
+        "regions": {
+          "england": {
+            "name": "England",
+            "breaks": [
+              {
+                "name": "Mid-Term Break",
+                "start": "2026-02-09",
+                "end": "2026-02-15",
+                "days": 7,
+                "description": "Mid-Term Break planning window for England, United Kingdom in 2026."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2026-04-02",
+                "end": "2026-04-18",
+                "days": 17,
+                "description": "Easter Break planning window for England, United Kingdom in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-07-17",
+                "end": "2026-09-02",
+                "days": 48,
+                "description": "Summer Holidays planning window for England, United Kingdom in 2026."
+              },
+              {
+                "name": "Autumn Half-Term",
+                "start": "2026-10-26",
+                "end": "2026-11-01",
+                "days": 7,
+                "description": "Autumn Half-Term planning window for England, United Kingdom in 2026."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2026-12-20",
+                "end": "2027-01-04",
+                "days": 16,
+                "description": "Christmas Break planning window for England, United Kingdom in 2026."
+              }
+            ]
+          },
+          "scotland": {
+            "name": "Scotland",
+            "breaks": [
+              {
+                "name": "Mid-Term Break",
+                "start": "2026-02-02",
+                "end": "2026-02-08",
+                "days": 7,
+                "description": "Mid-Term Break planning window for Scotland, United Kingdom in 2026."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2026-04-02",
+                "end": "2026-04-18",
+                "days": 17,
+                "description": "Easter Break planning window for Scotland, United Kingdom in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-07-03",
+                "end": "2026-09-16",
+                "days": 76,
+                "description": "Summer Holidays planning window for Scotland, United Kingdom in 2026."
+              },
+              {
+                "name": "Autumn Half-Term",
+                "start": "2026-10-12",
+                "end": "2026-10-18",
+                "days": 7,
+                "description": "Autumn Half-Term planning window for Scotland, United Kingdom in 2026."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2026-12-21",
+                "end": "2027-01-04",
+                "days": 15,
+                "description": "Christmas Break planning window for Scotland, United Kingdom in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "australia": {
+        "name": "Australia",
+        "regions": {
+          "nsw": {
+            "name": "New South Wales",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2026-01-01",
+                "end": "2026-01-29",
+                "days": 29,
+                "description": "Summer Holidays planning window for New South Wales, Australia in 2026."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2026-03-29",
+                "end": "2026-04-12",
+                "days": 15,
+                "description": "Autumn Holidays planning window for New South Wales, Australia in 2026."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2026-06-22",
+                "end": "2026-07-05",
+                "days": 14,
+                "description": "Winter Holidays planning window for New South Wales, Australia in 2026."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2026-09-28",
+                "end": "2026-10-11",
+                "days": 14,
+                "description": "Spring Holidays planning window for New South Wales, Australia in 2026."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2026-12-11",
+                "end": "2027-01-28",
+                "days": 49,
+                "description": "Summer Break planning window for New South Wales, Australia in 2026."
+              }
+            ]
+          },
+          "vic": {
+            "name": "Victoria",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2026-01-01",
+                "end": "2026-01-28",
+                "days": 28,
+                "description": "Summer Holidays planning window for Victoria, Australia in 2026."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2026-03-29",
+                "end": "2026-04-12",
+                "days": 15,
+                "description": "Autumn Holidays planning window for Victoria, Australia in 2026."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2026-06-22",
+                "end": "2026-07-05",
+                "days": 14,
+                "description": "Winter Holidays planning window for Victoria, Australia in 2026."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2026-09-28",
+                "end": "2026-10-11",
+                "days": 14,
+                "description": "Spring Holidays planning window for Victoria, Australia in 2026."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2026-12-11",
+                "end": "2027-01-28",
+                "days": 49,
+                "description": "Summer Break planning window for Victoria, Australia in 2026."
+              }
+            ]
+          },
+          "qld": {
+            "name": "Queensland",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2026-01-01",
+                "end": "2026-01-26",
+                "days": 26,
+                "description": "Summer Holidays planning window for Queensland, Australia in 2026."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2026-03-29",
+                "end": "2026-04-12",
+                "days": 15,
+                "description": "Autumn Holidays planning window for Queensland, Australia in 2026."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2026-06-29",
+                "end": "2026-07-12",
+                "days": 14,
+                "description": "Winter Holidays planning window for Queensland, Australia in 2026."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2026-09-21",
+                "end": "2026-10-04",
+                "days": 14,
+                "description": "Spring Holidays planning window for Queensland, Australia in 2026."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2026-12-11",
+                "end": "2027-01-26",
+                "days": 47,
+                "description": "Summer Break planning window for Queensland, Australia in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "canada": {
+        "name": "Canada",
+        "regions": {
+          "on": {
+            "name": "Ontario",
+            "breaks": [
+              {
+                "name": "March Break",
+                "start": "2026-03-09",
+                "end": "2026-03-15",
+                "days": 7,
+                "description": "March Break planning window for Ontario, Canada in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-06-28",
+                "end": "2026-09-07",
+                "days": 72,
+                "description": "Summer Holidays planning window for Ontario, Canada in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-20",
+                "end": "2027-01-04",
+                "days": 16,
+                "description": "Winter Break planning window for Ontario, Canada in 2026."
+              }
+            ]
+          },
+          "bc": {
+            "name": "British Columbia",
+            "breaks": [
+              {
+                "name": "March Break",
+                "start": "2026-03-16",
+                "end": "2026-03-22",
+                "days": 7,
+                "description": "March Break planning window for British Columbia, Canada in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-06-27",
+                "end": "2026-09-07",
+                "days": 73,
+                "description": "Summer Holidays planning window for British Columbia, Canada in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-20",
+                "end": "2027-01-04",
+                "days": 16,
+                "description": "Winter Break planning window for British Columbia, Canada in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "new-zealand": {
+        "name": "New Zealand",
+        "regions": {
+          "auk": {
+            "name": "Auckland",
+            "breaks": [
+              {
+                "name": "Term 1 Holidays",
+                "start": "2026-04-13",
+                "end": "2026-04-26",
+                "days": 14,
+                "description": "Term 1 Holidays planning window for Auckland, New Zealand in 2026."
+              },
+              {
+                "name": "Term 2 Holidays",
+                "start": "2026-07-13",
+                "end": "2026-07-26",
+                "days": 14,
+                "description": "Term 2 Holidays planning window for Auckland, New Zealand in 2026."
+              },
+              {
+                "name": "Term 3 Holidays",
+                "start": "2026-09-28",
+                "end": "2026-10-11",
+                "days": 14,
+                "description": "Term 3 Holidays planning window for Auckland, New Zealand in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-12-19",
+                "end": "2027-01-27",
+                "days": 40,
+                "description": "Summer Holidays planning window for Auckland, New Zealand in 2026."
+              }
+            ]
+          },
+          "wgn": {
+            "name": "Wellington",
+            "breaks": [
+              {
+                "name": "Term 1 Holidays",
+                "start": "2026-04-13",
+                "end": "2026-04-26",
+                "days": 14,
+                "description": "Term 1 Holidays planning window for Wellington, New Zealand in 2026."
+              },
+              {
+                "name": "Term 2 Holidays",
+                "start": "2026-07-13",
+                "end": "2026-07-26",
+                "days": 14,
+                "description": "Term 2 Holidays planning window for Wellington, New Zealand in 2026."
+              },
+              {
+                "name": "Term 3 Holidays",
+                "start": "2026-09-28",
+                "end": "2026-10-11",
+                "days": 14,
+                "description": "Term 3 Holidays planning window for Wellington, New Zealand in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-12-18",
+                "end": "2027-01-27",
+                "days": 41,
+                "description": "Summer Holidays planning window for Wellington, New Zealand in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "south-africa": {
+        "name": "South Africa",
+        "regions": {
+          "gp": {
+            "name": "Gauteng",
+            "breaks": [
+              {
+                "name": "Autumn Break",
+                "start": "2026-03-23",
+                "end": "2026-03-30",
+                "days": 8,
+                "description": "Autumn Break planning window for Gauteng, South Africa in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-06-22",
+                "end": "2026-07-06",
+                "days": 15,
+                "description": "Winter Break planning window for Gauteng, South Africa in 2026."
+              },
+              {
+                "name": "Spring Break",
+                "start": "2026-09-28",
+                "end": "2026-10-05",
+                "days": 8,
+                "description": "Spring Break planning window for Gauteng, South Africa in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-12-10",
+                "end": "2027-01-12",
+                "days": 34,
+                "description": "Summer Holidays planning window for Gauteng, South Africa in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "germany": {
+        "name": "Germany",
+        "regions": {
+          "by": {
+            "name": "Bavaria",
+            "breaks": [
+              {
+                "name": "Carnival Break",
+                "start": "2026-03-02",
+                "end": "2026-03-06",
+                "days": 5,
+                "description": "Carnival Break planning window for Bavaria, Germany in 2026."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2026-04-03",
+                "end": "2026-04-14",
+                "days": 12,
+                "description": "Easter Break planning window for Bavaria, Germany in 2026."
+              },
+              {
+                "name": "Pentecost Break",
+                "start": "2026-05-24",
+                "end": "2026-06-06",
+                "days": 14,
+                "description": "Pentecost Break planning window for Bavaria, Germany in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-08-01",
+                "end": "2026-09-11",
+                "days": 42,
+                "description": "Summer Holidays planning window for Bavaria, Germany in 2026."
+              },
+              {
+                "name": "Autumn Break",
+                "start": "2026-10-31",
+                "end": "2026-11-06",
+                "days": 7,
+                "description": "Autumn Break planning window for Bavaria, Germany in 2026."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2026-12-22",
+                "end": "2027-01-05",
+                "days": 15,
+                "description": "Christmas Break planning window for Bavaria, Germany in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "france": {
+        "name": "France",
+        "regions": {
+          "paris-zone-c": {
+            "name": "Paris Zone C",
+            "breaks": [
+              {
+                "name": "Winter Holidays",
+                "start": "2026-02-14",
+                "end": "2026-02-27",
+                "days": 14,
+                "description": "Winter Holidays planning window for Paris Zone C, France in 2026."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2026-04-11",
+                "end": "2026-04-24",
+                "days": 14,
+                "description": "Spring Holidays planning window for Paris Zone C, France in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-07-05",
+                "end": "2026-08-31",
+                "days": 58,
+                "description": "Summer Holidays planning window for Paris Zone C, France in 2026."
+              },
+              {
+                "name": "All Saints Break",
+                "start": "2026-10-18",
+                "end": "2026-10-31",
+                "days": 14,
+                "description": "All Saints Break planning window for Paris Zone C, France in 2026."
+              },
+              {
+                "name": "Christmas Holidays",
+                "start": "2026-12-20",
+                "end": "2027-01-04",
+                "days": 16,
+                "description": "Christmas Holidays planning window for Paris Zone C, France in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "spain": {
+        "name": "Spain",
+        "regions": {
+          "madrid": {
+            "name": "Madrid",
+            "breaks": [
+              {
+                "name": "Easter Holidays",
+                "start": "2026-03-29",
+                "end": "2026-04-08",
+                "days": 11,
+                "description": "Easter Holidays planning window for Madrid, Spain in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-06-22",
+                "end": "2026-09-07",
+                "days": 78,
+                "description": "Summer Holidays planning window for Madrid, Spain in 2026."
+              },
+              {
+                "name": "Christmas Holidays",
+                "start": "2026-12-22",
+                "end": "2027-01-07",
+                "days": 17,
+                "description": "Christmas Holidays planning window for Madrid, Spain in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "thailand": {
+        "name": "Thailand",
+        "regions": {
+          "bangkok": {
+            "name": "Bangkok",
+            "breaks": [
+              {
+                "name": "Summer Break",
+                "start": "2026-03-10",
+                "end": "2026-05-15",
+                "days": 67,
+                "description": "Summer Break planning window for Bangkok, Thailand in 2026."
+              },
+              {
+                "name": "Mid-Year Break",
+                "start": "2026-10-01",
+                "end": "2026-10-31",
+                "days": 31,
+                "description": "Mid-Year Break planning window for Bangkok, Thailand in 2026."
+              },
+              {
+                "name": "New Year Break",
+                "start": "2026-12-24",
+                "end": "2027-01-06",
+                "days": 14,
+                "description": "New Year Break planning window for Bangkok, Thailand in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "japan": {
+        "name": "Japan",
+        "regions": {
+          "tokyo": {
+            "name": "Tokyo",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2026-03-25",
+                "end": "2026-04-05",
+                "days": 12,
+                "description": "Spring Break planning window for Tokyo, Japan in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-07-21",
+                "end": "2026-08-31",
+                "days": 42,
+                "description": "Summer Holidays planning window for Tokyo, Japan in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-26",
+                "end": "2027-01-07",
+                "days": 13,
+                "description": "Winter Break planning window for Tokyo, Japan in 2026."
+              }
+            ]
+          }
+        }
+      },
+      "south-korea": {
+        "name": "South Korea",
+        "regions": {
+          "seoul": {
+            "name": "Seoul",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2026-02-10",
+                "end": "2026-02-17",
+                "days": 8,
+                "description": "Spring Break planning window for Seoul, South Korea in 2026."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2026-07-24",
+                "end": "2026-08-16",
+                "days": 24,
+                "description": "Summer Holidays planning window for Seoul, South Korea in 2026."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2026-12-27",
+                "end": "2027-02-01",
+                "days": 37,
+                "description": "Winter Break planning window for Seoul, South Korea in 2026."
+              }
+            ]
+          }
+        }
+      }
+    },
+    "2027": {
+      "usa": {
+        "name": "United States",
+        "regions": {
+          "ny": {
+            "name": "New York",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2027-03-15",
+                "end": "2027-03-21",
+                "days": 7,
+                "description": "Spring Break planning window for New York, United States in 2027."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2027-06-14",
+                "end": "2027-08-23",
+                "days": 71,
+                "description": "Summer Break planning window for New York, United States in 2027."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2027-11-23",
+                "end": "2027-11-29",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for New York, United States in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-22",
+                "end": "2028-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for New York, United States in 2027."
+              }
+            ]
+          },
+          "ca": {
+            "name": "California",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2027-03-15",
+                "end": "2027-03-21",
+                "days": 7,
+                "description": "Spring Break planning window for California, United States in 2027."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2027-06-07",
+                "end": "2027-08-23",
+                "days": 78,
+                "description": "Summer Break planning window for California, United States in 2027."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2027-11-23",
+                "end": "2027-11-29",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for California, United States in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-22",
+                "end": "2028-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for California, United States in 2027."
+              }
+            ]
+          },
+          "tx": {
+            "name": "Texas",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2027-03-08",
+                "end": "2027-03-14",
+                "days": 7,
+                "description": "Spring Break planning window for Texas, United States in 2027."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2027-05-24",
+                "end": "2027-08-16",
+                "days": 85,
+                "description": "Summer Break planning window for Texas, United States in 2027."
+              },
+              {
+                "name": "Thanksgiving Break",
+                "start": "2027-11-23",
+                "end": "2027-11-29",
+                "days": 7,
+                "description": "Thanksgiving Break planning window for Texas, United States in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-22",
+                "end": "2028-01-03",
+                "days": 13,
+                "description": "Winter Break planning window for Texas, United States in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "uk": {
+        "name": "United Kingdom",
+        "regions": {
+          "england": {
+            "name": "England",
+            "breaks": [
+              {
+                "name": "Mid-Term Break",
+                "start": "2027-02-08",
+                "end": "2027-02-14",
+                "days": 7,
+                "description": "Mid-Term Break planning window for England, United Kingdom in 2027."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2027-03-25",
+                "end": "2027-04-10",
+                "days": 17,
+                "description": "Easter Break planning window for England, United Kingdom in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-07-16",
+                "end": "2027-09-02",
+                "days": 49,
+                "description": "Summer Holidays planning window for England, United Kingdom in 2027."
+              },
+              {
+                "name": "Autumn Half-Term",
+                "start": "2027-10-25",
+                "end": "2027-10-31",
+                "days": 7,
+                "description": "Autumn Half-Term planning window for England, United Kingdom in 2027."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2027-12-20",
+                "end": "2028-01-04",
+                "days": 16,
+                "description": "Christmas Break planning window for England, United Kingdom in 2027."
+              }
+            ]
+          },
+          "scotland": {
+            "name": "Scotland",
+            "breaks": [
+              {
+                "name": "Mid-Term Break",
+                "start": "2027-02-01",
+                "end": "2027-02-07",
+                "days": 7,
+                "description": "Mid-Term Break planning window for Scotland, United Kingdom in 2027."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2027-03-25",
+                "end": "2027-04-10",
+                "days": 17,
+                "description": "Easter Break planning window for Scotland, United Kingdom in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-07-02",
+                "end": "2027-09-16",
+                "days": 77,
+                "description": "Summer Holidays planning window for Scotland, United Kingdom in 2027."
+              },
+              {
+                "name": "Autumn Half-Term",
+                "start": "2027-10-11",
+                "end": "2027-10-17",
+                "days": 7,
+                "description": "Autumn Half-Term planning window for Scotland, United Kingdom in 2027."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2027-12-21",
+                "end": "2028-01-04",
+                "days": 15,
+                "description": "Christmas Break planning window for Scotland, United Kingdom in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "australia": {
+        "name": "Australia",
+        "regions": {
+          "nsw": {
+            "name": "New South Wales",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2027-01-01",
+                "end": "2027-01-29",
+                "days": 29,
+                "description": "Summer Holidays planning window for New South Wales, Australia in 2027."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2027-03-21",
+                "end": "2027-04-04",
+                "days": 15,
+                "description": "Autumn Holidays planning window for New South Wales, Australia in 2027."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2027-06-28",
+                "end": "2027-07-11",
+                "days": 14,
+                "description": "Winter Holidays planning window for New South Wales, Australia in 2027."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2027-09-27",
+                "end": "2027-10-10",
+                "days": 14,
+                "description": "Spring Holidays planning window for New South Wales, Australia in 2027."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2027-12-10",
+                "end": "2028-01-28",
+                "days": 50,
+                "description": "Summer Break planning window for New South Wales, Australia in 2027."
+              }
+            ]
+          },
+          "vic": {
+            "name": "Victoria",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2027-01-01",
+                "end": "2027-01-28",
+                "days": 28,
+                "description": "Summer Holidays planning window for Victoria, Australia in 2027."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2027-03-21",
+                "end": "2027-04-04",
+                "days": 15,
+                "description": "Autumn Holidays planning window for Victoria, Australia in 2027."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2027-06-28",
+                "end": "2027-07-11",
+                "days": 14,
+                "description": "Winter Holidays planning window for Victoria, Australia in 2027."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2027-09-27",
+                "end": "2027-10-10",
+                "days": 14,
+                "description": "Spring Holidays planning window for Victoria, Australia in 2027."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2027-12-10",
+                "end": "2028-01-28",
+                "days": 50,
+                "description": "Summer Break planning window for Victoria, Australia in 2027."
+              }
+            ]
+          },
+          "qld": {
+            "name": "Queensland",
+            "breaks": [
+              {
+                "name": "Summer Holidays",
+                "start": "2027-01-01",
+                "end": "2027-01-26",
+                "days": 26,
+                "description": "Summer Holidays planning window for Queensland, Australia in 2027."
+              },
+              {
+                "name": "Autumn Holidays",
+                "start": "2027-03-21",
+                "end": "2027-04-04",
+                "days": 15,
+                "description": "Autumn Holidays planning window for Queensland, Australia in 2027."
+              },
+              {
+                "name": "Winter Holidays",
+                "start": "2027-07-05",
+                "end": "2027-07-18",
+                "days": 14,
+                "description": "Winter Holidays planning window for Queensland, Australia in 2027."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2027-09-20",
+                "end": "2027-10-03",
+                "days": 14,
+                "description": "Spring Holidays planning window for Queensland, Australia in 2027."
+              },
+              {
+                "name": "Summer Break",
+                "start": "2027-12-10",
+                "end": "2028-01-26",
+                "days": 48,
+                "description": "Summer Break planning window for Queensland, Australia in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "canada": {
+        "name": "Canada",
+        "regions": {
+          "on": {
+            "name": "Ontario",
+            "breaks": [
+              {
+                "name": "March Break",
+                "start": "2027-03-08",
+                "end": "2027-03-14",
+                "days": 7,
+                "description": "March Break planning window for Ontario, Canada in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-06-28",
+                "end": "2027-09-06",
+                "days": 71,
+                "description": "Summer Holidays planning window for Ontario, Canada in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-20",
+                "end": "2028-01-04",
+                "days": 16,
+                "description": "Winter Break planning window for Ontario, Canada in 2027."
+              }
+            ]
+          },
+          "bc": {
+            "name": "British Columbia",
+            "breaks": [
+              {
+                "name": "March Break",
+                "start": "2027-03-15",
+                "end": "2027-03-21",
+                "days": 7,
+                "description": "March Break planning window for British Columbia, Canada in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-06-27",
+                "end": "2027-09-06",
+                "days": 72,
+                "description": "Summer Holidays planning window for British Columbia, Canada in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-20",
+                "end": "2028-01-04",
+                "days": 16,
+                "description": "Winter Break planning window for British Columbia, Canada in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "new-zealand": {
+        "name": "New Zealand",
+        "regions": {
+          "auk": {
+            "name": "Auckland",
+            "breaks": [
+              {
+                "name": "Term 1 Holidays",
+                "start": "2027-04-12",
+                "end": "2027-04-25",
+                "days": 14,
+                "description": "Term 1 Holidays planning window for Auckland, New Zealand in 2027."
+              },
+              {
+                "name": "Term 2 Holidays",
+                "start": "2027-07-12",
+                "end": "2027-07-25",
+                "days": 14,
+                "description": "Term 2 Holidays planning window for Auckland, New Zealand in 2027."
+              },
+              {
+                "name": "Term 3 Holidays",
+                "start": "2027-09-27",
+                "end": "2027-10-10",
+                "days": 14,
+                "description": "Term 3 Holidays planning window for Auckland, New Zealand in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-12-19",
+                "end": "2028-01-27",
+                "days": 40,
+                "description": "Summer Holidays planning window for Auckland, New Zealand in 2027."
+              }
+            ]
+          },
+          "wgn": {
+            "name": "Wellington",
+            "breaks": [
+              {
+                "name": "Term 1 Holidays",
+                "start": "2027-04-12",
+                "end": "2027-04-25",
+                "days": 14,
+                "description": "Term 1 Holidays planning window for Wellington, New Zealand in 2027."
+              },
+              {
+                "name": "Term 2 Holidays",
+                "start": "2027-07-12",
+                "end": "2027-07-25",
+                "days": 14,
+                "description": "Term 2 Holidays planning window for Wellington, New Zealand in 2027."
+              },
+              {
+                "name": "Term 3 Holidays",
+                "start": "2027-09-27",
+                "end": "2027-10-10",
+                "days": 14,
+                "description": "Term 3 Holidays planning window for Wellington, New Zealand in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-12-18",
+                "end": "2028-01-27",
+                "days": 41,
+                "description": "Summer Holidays planning window for Wellington, New Zealand in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "south-africa": {
+        "name": "South Africa",
+        "regions": {
+          "gp": {
+            "name": "Gauteng",
+            "breaks": [
+              {
+                "name": "Autumn Break",
+                "start": "2027-03-22",
+                "end": "2027-03-29",
+                "days": 8,
+                "description": "Autumn Break planning window for Gauteng, South Africa in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-06-28",
+                "end": "2027-07-12",
+                "days": 15,
+                "description": "Winter Break planning window for Gauteng, South Africa in 2027."
+              },
+              {
+                "name": "Spring Break",
+                "start": "2027-09-27",
+                "end": "2027-10-04",
+                "days": 8,
+                "description": "Spring Break planning window for Gauteng, South Africa in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-12-10",
+                "end": "2028-01-12",
+                "days": 34,
+                "description": "Summer Holidays planning window for Gauteng, South Africa in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "germany": {
+        "name": "Germany",
+        "regions": {
+          "by": {
+            "name": "Bavaria",
+            "breaks": [
+              {
+                "name": "Carnival Break",
+                "start": "2027-03-01",
+                "end": "2027-03-05",
+                "days": 5,
+                "description": "Carnival Break planning window for Bavaria, Germany in 2027."
+              },
+              {
+                "name": "Easter Break",
+                "start": "2027-03-26",
+                "end": "2027-04-06",
+                "days": 12,
+                "description": "Easter Break planning window for Bavaria, Germany in 2027."
+              },
+              {
+                "name": "Pentecost Break",
+                "start": "2027-05-16",
+                "end": "2027-05-29",
+                "days": 14,
+                "description": "Pentecost Break planning window for Bavaria, Germany in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-08-01",
+                "end": "2027-09-11",
+                "days": 42,
+                "description": "Summer Holidays planning window for Bavaria, Germany in 2027."
+              },
+              {
+                "name": "Autumn Break",
+                "start": "2027-10-31",
+                "end": "2027-11-06",
+                "days": 7,
+                "description": "Autumn Break planning window for Bavaria, Germany in 2027."
+              },
+              {
+                "name": "Christmas Break",
+                "start": "2027-12-22",
+                "end": "2028-01-05",
+                "days": 15,
+                "description": "Christmas Break planning window for Bavaria, Germany in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "france": {
+        "name": "France",
+        "regions": {
+          "paris-zone-c": {
+            "name": "Paris Zone C",
+            "breaks": [
+              {
+                "name": "Winter Holidays",
+                "start": "2027-02-13",
+                "end": "2027-02-26",
+                "days": 14,
+                "description": "Winter Holidays planning window for Paris Zone C, France in 2027."
+              },
+              {
+                "name": "Spring Holidays",
+                "start": "2027-04-10",
+                "end": "2027-04-23",
+                "days": 14,
+                "description": "Spring Holidays planning window for Paris Zone C, France in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-07-05",
+                "end": "2027-08-31",
+                "days": 58,
+                "description": "Summer Holidays planning window for Paris Zone C, France in 2027."
+              },
+              {
+                "name": "All Saints Break",
+                "start": "2027-10-18",
+                "end": "2027-10-31",
+                "days": 14,
+                "description": "All Saints Break planning window for Paris Zone C, France in 2027."
+              },
+              {
+                "name": "Christmas Holidays",
+                "start": "2027-12-20",
+                "end": "2028-01-04",
+                "days": 16,
+                "description": "Christmas Holidays planning window for Paris Zone C, France in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "spain": {
+        "name": "Spain",
+        "regions": {
+          "madrid": {
+            "name": "Madrid",
+            "breaks": [
+              {
+                "name": "Easter Holidays",
+                "start": "2027-03-21",
+                "end": "2027-03-31",
+                "days": 11,
+                "description": "Easter Holidays planning window for Madrid, Spain in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-06-22",
+                "end": "2027-09-07",
+                "days": 78,
+                "description": "Summer Holidays planning window for Madrid, Spain in 2027."
+              },
+              {
+                "name": "Christmas Holidays",
+                "start": "2027-12-22",
+                "end": "2028-01-07",
+                "days": 17,
+                "description": "Christmas Holidays planning window for Madrid, Spain in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "thailand": {
+        "name": "Thailand",
+        "regions": {
+          "bangkok": {
+            "name": "Bangkok",
+            "breaks": [
+              {
+                "name": "Summer Break",
+                "start": "2027-03-10",
+                "end": "2027-05-15",
+                "days": 67,
+                "description": "Summer Break planning window for Bangkok, Thailand in 2027."
+              },
+              {
+                "name": "Mid-Year Break",
+                "start": "2027-10-01",
+                "end": "2027-10-31",
+                "days": 31,
+                "description": "Mid-Year Break planning window for Bangkok, Thailand in 2027."
+              },
+              {
+                "name": "New Year Break",
+                "start": "2027-12-24",
+                "end": "2028-01-06",
+                "days": 14,
+                "description": "New Year Break planning window for Bangkok, Thailand in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "japan": {
+        "name": "Japan",
+        "regions": {
+          "tokyo": {
+            "name": "Tokyo",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2027-03-25",
+                "end": "2027-04-05",
+                "days": 12,
+                "description": "Spring Break planning window for Tokyo, Japan in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-07-21",
+                "end": "2027-08-31",
+                "days": 42,
+                "description": "Summer Holidays planning window for Tokyo, Japan in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-26",
+                "end": "2028-01-07",
+                "days": 13,
+                "description": "Winter Break planning window for Tokyo, Japan in 2027."
+              }
+            ]
+          }
+        }
+      },
+      "south-korea": {
+        "name": "South Korea",
+        "regions": {
+          "seoul": {
+            "name": "Seoul",
+            "breaks": [
+              {
+                "name": "Spring Break",
+                "start": "2027-02-10",
+                "end": "2027-02-17",
+                "days": 8,
+                "description": "Spring Break planning window for Seoul, South Korea in 2027."
+              },
+              {
+                "name": "Summer Holidays",
+                "start": "2027-07-24",
+                "end": "2027-08-16",
+                "days": 24,
+                "description": "Summer Holidays planning window for Seoul, South Korea in 2027."
+              },
+              {
+                "name": "Winter Break",
+                "start": "2027-12-27",
+                "end": "2028-02-01",
+                "days": 37,
+                "description": "Winter Break planning window for Seoul, South Korea in 2027."
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

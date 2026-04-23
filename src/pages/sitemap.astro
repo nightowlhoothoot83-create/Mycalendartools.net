@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import holidays from '../data/holidays.json';
+const pages = ['/', '/between', '/weeks', '/week-number', '/moon-phase', '/zodiac', '/year-at-glance', '/about', '/contact', '/privacy', '/school-holidays'];
+const schoolPages = [];
+Object.entries(holidays.years['2026']).forEach(([slug, country]) => schoolPages.push(`/school-holidays/${slug}`));
+---
+<BaseLayout title="HTML Sitemap | MyCalendarTools" description="Browse the important pages on MyCalendarTools.">
+  <div class="hero"><div class="breadcrumbs"><a href="/">Home</a> / <span>Sitemap</span></div><h1>HTML Sitemap</h1></div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h2>Main Pages</h2>
+      <ul class="list">{pages.map((page) => <li><a href={page}>{page}</a></li>)}</ul>
+    </div>
+    <div class="card">
+      <h2>School Holiday Pages</h2>
+      <ul class="list">{schoolPages.map((page) => <li><a href={page}>{page}</a></li>)}</ul>
+    </div>
+  </div>
+</BaseLayout>

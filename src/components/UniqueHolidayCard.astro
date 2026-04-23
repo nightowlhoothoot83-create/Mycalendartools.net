@@ -1,0 +1,14 @@
+---
+import { getHolidayForDate, getTomorrowHoliday } from '../lib/holidays.js';
+const { date = new Date() } = Astro.props;
+const todayHoliday = getHolidayForDate(date);
+const tomorrowHoliday = getTomorrowHoliday(date);
+---
+<div class="card">
+  <div class="small">🎉 Unique holiday</div>
+  <h3 style="margin-top:10px">Today is {todayHoliday?.name || 'a good day to make one up'}!</h3>
+  <p>{todayHoliday?.description || 'Create a tiny ritual, a reason to smile, or a useful excuse to celebrate today.'}</p>
+  <div class="muted-box">
+    <strong>Tomorrow:</strong> {tomorrowHoliday?.name || 'Something unexpectedly excellent'}
+  </div>
+</div>

@@ -1,0 +1,55 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import MoonPhaseCard from '../components/MoonPhaseCard.astro';
+const now = new Date();
+const dates = Array.from({ length: 12 }, (_, i) => new Date(2026, i, 15));
+---
+<BaseLayout title="Moon Phase Calendar 2026 | MyCalendarTools" description="Check the current moon phase, any date's phase, moonrise, moonset, and a simple 2026 moon phase calendar.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Moon Phase</span></div>
+    <h1>🌙 Moon Phase Tools</h1>
+    <p>Use this page for today’s moon details, a date lookup, and a simple 2026 moon phase calendar with stargazing and full-moon photography tips.</p>
+  </div>
+  <section class="grid grid-2 section">
+    <MoonPhaseCard date={now} />
+    <div class="card">
+      <div class="field"><label for="moonDateInput">Pick any date</label><input type="date" id="moonDateInput" value={now.toISOString().slice(0,10)} /></div>
+      <button class="btn" id="moonCheckBtn">Check moon phase</button>
+      <div id="moonLookupResult" class="result"></div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="card">
+      <h2>2026 Moon Phase Calendar Snapshot</h2>
+      <div class="grid grid-3">
+        {dates.map((d) => <MoonPhaseCard date={d} />)}
+      </div>
+      <div class="grid grid-2" style="margin-top:18px">
+        <div class="muted-box"><strong>Best stargazing windows</strong><br/>Aim for new moon or the darkest nights either side of it.</div>
+        <div class="muted-box"><strong>Best photography windows</strong><br/>Aim for the full moon and the two nights around it for brighter lunar shots.</div>
+      </div>
+    </div>
+  </section>
+  <script is:inline>
+    function getMoonData(inputDate = new Date()) {
+      const date = new Date(inputDate);
+      const knownNewMoon = new Date('2000-01-06T18:14:00Z');
+      const synodicMonth = 29.53058867;
+      const daysSince = (date.getTime() - knownNewMoon.getTime()) / 86400000;
+      const cycle = ((daysSince % synodicMonth) + synodicMonth) % synodicMonth;
+      const phases = ['New Moon','Waxing Crescent','First Quarter','Waxing Gibbous','Full Moon','Waning Gibbous','Last Quarter','Waning Crescent'];
+      const phase = phases[Math.floor((cycle / synodicMonth) * 8) % 8];
+      const illumination = Math.round((1 - Math.cos((2 * Math.PI * cycle) / synodicMonth)) * 50);
+      const nextFullMoonDays = (((synodicMonth / 2) - cycle + synodicMonth) % synodicMonth).toFixed(1);
+      return { phase, illumination, nextFullMoonDays };
+    }
+    const input = document.getElementById('moonDateInput');
+    const out = document.getElementById('moonLookupResult');
+    function renderMoon(){
+      const moon = getMoonData(input.value);
+      out.innerHTML = `<div class="mega">${moon.phase}</div><p>Illumination ${moon.illumination}% · Next full moon in about ${moon.nextFullMoonDays} days.</p>`;
+    }
+    document.getElementById('moonCheckBtn').addEventListener('click', renderMoon);
+    renderMoon();
+  </script>
+</BaseLayout>

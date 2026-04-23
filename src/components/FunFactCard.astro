@@ -1,0 +1,33 @@
+---
+import funFacts from '../data/funFacts.json';
+import { getEventsForDate, getBirthdaysForDate } from '../lib/holidays.js';
+const { date = new Date() } = Astro.props;
+const events = getEventsForDate(date);
+const birthdays = getBirthdaysForDate(date);
+const starterFact = funFacts[0];
+---
+<div class="card">
+  <div class="small">📜 On this day</div>
+  <div class="grid" style="margin-top:12px">
+    <div>
+      <h3>Historical moments</h3>
+      {events.length ? <ul class="list">{events.map((event) => <li>{event}</li>)}</ul> : <p>No major event loaded for today yet — the search bar below can still dig through the archive.</p>}
+    </div>
+    <div>
+      <h3>Celebrity birthdays</h3>
+      {birthdays.length ? <ul class="list">{birthdays.map((person) => <li>{person}</li>)}</ul> : <p>No birthday entries loaded for today yet.</p>}
+    </div>
+    <div class="muted-box">
+      <strong>✨ Random fun fact</strong>
+      <div id="fun-fact-copy" style="margin-top:8px">{starterFact}</div>
+      <button class="btn secondary" id="another-fact-btn" style="margin-top:10px">Another fact</button>
+    </div>
+  </div>
+</div>
+<script is:inline define:vars={{ funFacts }}>
+  const btn = document.getElementById('another-fact-btn');
+  const target = document.getElementById('fun-fact-copy');
+  btn?.addEventListener('click', () => {
+    target.textContent = funFacts[Math.floor(Math.random() * funFacts.length)];
+  });
+</script>

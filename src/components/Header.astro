@@ -1,0 +1,28 @@
+---
+const links = [
+  ['/', 'Today'],
+  ['/between', 'Days Between'],
+  ['/weeks', 'Weeks Between'],
+  ['/week-number', 'Week Number'],
+  ['/moon-phase', 'Moon Phase'],
+  ['/zodiac', 'Zodiac'],
+  ['/year-at-glance', 'Year at a Glance'],
+  ['/school-holidays', 'School Holidays'],
+  ['/countdowns', 'Countdowns'],
+  ['/special-dates', 'Special Dates']
+];
+---
+<header class="site-header">
+  <div class="container" style="display:flex;align-items:center;justify-content:space-between;padding:16px 20px;">
+    <a href="/" style="display:flex;align-items:center;gap:10px;text-decoration:none">
+      <span style="width:32px;height:32px;border-radius:10px;background:linear-gradient(135deg,#60A5FA,#A78BFA);display:grid;place-items:center">📅</span>
+      <div>
+        <div style="font-family:'Syne';font-weight:800">MyCalendarTools</div>
+        <div class="small">Smart date tools, moon phases, school holidays & countdowns</div>
+      </div>
+    </a>
+    <nav class="no-print" style="display:flex;gap:14px;flex-wrap:wrap;justify-content:flex-end">
+      {links.map(([href,label]) => <a href={href} class="small" style="text-decoration:none;padding:8px 12px;border-radius:999px;background:var(--surface2);border:1px solid var(--border)">{label}</a>)}
+    </nav>
+  </div>
+</header>

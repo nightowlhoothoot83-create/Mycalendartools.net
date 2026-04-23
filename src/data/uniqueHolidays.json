@@ -1,0 +1,2557 @@
+[
+  {
+    "month": 1,
+    "day": 1,
+    "name": "New Year's Day",
+    "isFun": false,
+    "description": "New Year's Day is a great excuse to do something small, fun, thoughtful, or memorable on January 1."
+  },
+  {
+    "month": 1,
+    "day": 2,
+    "name": "National Science Fiction Day",
+    "isFun": true,
+    "description": "National Science Fiction Day is a great excuse to do something small, fun, thoughtful, or memorable on January 2."
+  },
+  {
+    "month": 1,
+    "day": 3,
+    "name": "Festival of Sleep Day",
+    "isFun": true,
+    "description": "Festival of Sleep Day is a great excuse to do something small, fun, thoughtful, or memorable on January 3."
+  },
+  {
+    "month": 1,
+    "day": 4,
+    "name": "World Braille Day",
+    "isFun": false,
+    "description": "World Braille Day is a great excuse to do something small, fun, thoughtful, or memorable on January 4."
+  },
+  {
+    "month": 1,
+    "day": 5,
+    "name": "National Bird Day",
+    "isFun": true,
+    "description": "National Bird Day is a great excuse to do something small, fun, thoughtful, or memorable on January 5."
+  },
+  {
+    "month": 1,
+    "day": 6,
+    "name": "Coffee Celebration",
+    "isFun": true,
+    "description": "Coffee Celebration is a great excuse to do something small, fun, thoughtful, or memorable on January 6."
+  },
+  {
+    "month": 1,
+    "day": 7,
+    "name": "Tea Awareness Day",
+    "isFun": true,
+    "description": "Tea Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on January 7."
+  },
+  {
+    "month": 1,
+    "day": 8,
+    "name": "Bubble Bath Day",
+    "isFun": true,
+    "description": "Bubble Bath Day is a great excuse to do something small, fun, thoughtful, or memorable on January 8."
+  },
+  {
+    "month": 1,
+    "day": 9,
+    "name": "Nature Day",
+    "isFun": true,
+    "description": "Nature Day is a great excuse to do something small, fun, thoughtful, or memorable on January 9."
+  },
+  {
+    "month": 1,
+    "day": 10,
+    "name": "Houseplant Appreciation Day",
+    "isFun": true,
+    "description": "Houseplant Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on January 10."
+  },
+  {
+    "month": 1,
+    "day": 11,
+    "name": "Stargazing Celebration",
+    "isFun": false,
+    "description": "Stargazing Celebration is a great excuse to do something small, fun, thoughtful, or memorable on January 11."
+  },
+  {
+    "month": 1,
+    "day": 12,
+    "name": "Gardening Awareness Day",
+    "isFun": true,
+    "description": "Gardening Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on January 12."
+  },
+  {
+    "month": 1,
+    "day": 13,
+    "name": "Learning Festival",
+    "isFun": true,
+    "description": "Learning Festival is a great excuse to do something small, fun, thoughtful, or memorable on January 13."
+  },
+  {
+    "month": 1,
+    "day": 14,
+    "name": "Memory Day",
+    "isFun": false,
+    "description": "Memory Day is a great excuse to do something small, fun, thoughtful, or memorable on January 14."
+  },
+  {
+    "month": 1,
+    "day": 15,
+    "name": "Kind Appreciation Day",
+    "isFun": true,
+    "description": "Kind Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on January 15."
+  },
+  {
+    "month": 1,
+    "day": 16,
+    "name": "Smile Celebration",
+    "isFun": true,
+    "description": "Smile Celebration is a great excuse to do something small, fun, thoughtful, or memorable on January 16."
+  },
+  {
+    "month": 1,
+    "day": 17,
+    "name": "Adventure Awareness Day",
+    "isFun": false,
+    "description": "Adventure Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on January 17."
+  },
+  {
+    "month": 1,
+    "day": 18,
+    "name": "Photo Festival",
+    "isFun": true,
+    "description": "Photo Festival is a great excuse to do something small, fun, thoughtful, or memorable on January 18."
+  },
+  {
+    "month": 1,
+    "day": 19,
+    "name": "National Popcorn Day",
+    "isFun": true,
+    "description": "National Popcorn Day is a great excuse to do something small, fun, thoughtful, or memorable on January 19."
+  },
+  {
+    "month": 1,
+    "day": 20,
+    "name": "Wellbeing Appreciation Day",
+    "isFun": false,
+    "description": "Wellbeing Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on January 20."
+  },
+  {
+    "month": 1,
+    "day": 21,
+    "name": "Coding Celebration",
+    "isFun": true,
+    "description": "Coding Celebration is a great excuse to do something small, fun, thoughtful, or memorable on January 21."
+  },
+  {
+    "month": 1,
+    "day": 22,
+    "name": "Calendar Awareness Day",
+    "isFun": true,
+    "description": "Calendar Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on January 22."
+  },
+  {
+    "month": 1,
+    "day": 23,
+    "name": "Moon Festival",
+    "isFun": false,
+    "description": "Moon Festival is a great excuse to do something small, fun, thoughtful, or memorable on January 23."
+  },
+  {
+    "month": 1,
+    "day": 24,
+    "name": "Zodiac Day",
+    "isFun": true,
+    "description": "Zodiac Day is a great excuse to do something small, fun, thoughtful, or memorable on January 24."
+  },
+  {
+    "month": 1,
+    "day": 25,
+    "name": "Time Appreciation Day",
+    "isFun": true,
+    "description": "Time Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on January 25."
+  },
+  {
+    "month": 1,
+    "day": 26,
+    "name": "Productivity Celebration",
+    "isFun": false,
+    "description": "Productivity Celebration is a great excuse to do something small, fun, thoughtful, or memorable on January 26."
+  },
+  {
+    "month": 1,
+    "day": 27,
+    "name": "Curious Awareness Day",
+    "isFun": true,
+    "description": "Curious Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on January 27."
+  },
+  {
+    "month": 1,
+    "day": 28,
+    "name": "Bright Festival",
+    "isFun": true,
+    "description": "Bright Festival is a great excuse to do something small, fun, thoughtful, or memorable on January 28."
+  },
+  {
+    "month": 1,
+    "day": 29,
+    "name": "Global Day",
+    "isFun": false,
+    "description": "Global Day is a great excuse to do something small, fun, thoughtful, or memorable on January 29."
+  },
+  {
+    "month": 1,
+    "day": 30,
+    "name": "Kindness Appreciation Day",
+    "isFun": true,
+    "description": "Kindness Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on January 30."
+  },
+  {
+    "month": 1,
+    "day": 31,
+    "name": "Sunshine Celebration",
+    "isFun": true,
+    "description": "Sunshine Celebration is a great excuse to do something small, fun, thoughtful, or memorable on January 31."
+  },
+  {
+    "month": 2,
+    "day": 1,
+    "name": "Creative Awareness Day",
+    "isFun": false,
+    "description": "Creative Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 1."
+  },
+  {
+    "month": 2,
+    "day": 2,
+    "name": "Groundhog Day",
+    "isFun": true,
+    "description": "Groundhog Day is a great excuse to do something small, fun, thoughtful, or memorable on February 2."
+  },
+  {
+    "month": 2,
+    "day": 3,
+    "name": "Book Day",
+    "isFun": true,
+    "description": "Book Day is a great excuse to do something small, fun, thoughtful, or memorable on February 3."
+  },
+  {
+    "month": 2,
+    "day": 4,
+    "name": "Coffee Appreciation Day",
+    "isFun": false,
+    "description": "Coffee Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on February 4."
+  },
+  {
+    "month": 2,
+    "day": 5,
+    "name": "Tea Celebration",
+    "isFun": true,
+    "description": "Tea Celebration is a great excuse to do something small, fun, thoughtful, or memorable on February 5."
+  },
+  {
+    "month": 2,
+    "day": 6,
+    "name": "Music Awareness Day",
+    "isFun": true,
+    "description": "Music Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 6."
+  },
+  {
+    "month": 2,
+    "day": 7,
+    "name": "Nature Festival",
+    "isFun": false,
+    "description": "Nature Festival is a great excuse to do something small, fun, thoughtful, or memorable on February 7."
+  },
+  {
+    "month": 2,
+    "day": 8,
+    "name": "Ocean Day",
+    "isFun": true,
+    "description": "Ocean Day is a great excuse to do something small, fun, thoughtful, or memorable on February 8."
+  },
+  {
+    "month": 2,
+    "day": 9,
+    "name": "Pizza Day",
+    "isFun": true,
+    "description": "Pizza Day is a great excuse to do something small, fun, thoughtful, or memorable on February 9."
+  },
+  {
+    "month": 2,
+    "day": 10,
+    "name": "Gardening Celebration",
+    "isFun": false,
+    "description": "Gardening Celebration is a great excuse to do something small, fun, thoughtful, or memorable on February 10."
+  },
+  {
+    "month": 2,
+    "day": 11,
+    "name": "Learning Awareness Day",
+    "isFun": true,
+    "description": "Learning Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 11."
+  },
+  {
+    "month": 2,
+    "day": 12,
+    "name": "Memory Festival",
+    "isFun": true,
+    "description": "Memory Festival is a great excuse to do something small, fun, thoughtful, or memorable on February 12."
+  },
+  {
+    "month": 2,
+    "day": 13,
+    "name": "Kind Day",
+    "isFun": false,
+    "description": "Kind Day is a great excuse to do something small, fun, thoughtful, or memorable on February 13."
+  },
+  {
+    "month": 2,
+    "day": 14,
+    "name": "Valentine's Day",
+    "isFun": false,
+    "description": "Valentine's Day is a great excuse to do something small, fun, thoughtful, or memorable on February 14."
+  },
+  {
+    "month": 2,
+    "day": 15,
+    "name": "Adventure Celebration",
+    "isFun": true,
+    "description": "Adventure Celebration is a great excuse to do something small, fun, thoughtful, or memorable on February 15."
+  },
+  {
+    "month": 2,
+    "day": 16,
+    "name": "Photo Awareness Day",
+    "isFun": false,
+    "description": "Photo Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 16."
+  },
+  {
+    "month": 2,
+    "day": 17,
+    "name": "Random Acts of Kindness Day",
+    "isFun": true,
+    "description": "Random Acts of Kindness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 17."
+  },
+  {
+    "month": 2,
+    "day": 18,
+    "name": "Wellbeing Day",
+    "isFun": true,
+    "description": "Wellbeing Day is a great excuse to do something small, fun, thoughtful, or memorable on February 18."
+  },
+  {
+    "month": 2,
+    "day": 19,
+    "name": "Coding Appreciation Day",
+    "isFun": false,
+    "description": "Coding Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on February 19."
+  },
+  {
+    "month": 2,
+    "day": 20,
+    "name": "Calendar Celebration",
+    "isFun": true,
+    "description": "Calendar Celebration is a great excuse to do something small, fun, thoughtful, or memorable on February 20."
+  },
+  {
+    "month": 2,
+    "day": 21,
+    "name": "Moon Awareness Day",
+    "isFun": true,
+    "description": "Moon Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 21."
+  },
+  {
+    "month": 2,
+    "day": 22,
+    "name": "Zodiac Festival",
+    "isFun": false,
+    "description": "Zodiac Festival is a great excuse to do something small, fun, thoughtful, or memorable on February 22."
+  },
+  {
+    "month": 2,
+    "day": 23,
+    "name": "Time Day",
+    "isFun": true,
+    "description": "Time Day is a great excuse to do something small, fun, thoughtful, or memorable on February 23."
+  },
+  {
+    "month": 2,
+    "day": 24,
+    "name": "Productivity Appreciation Day",
+    "isFun": true,
+    "description": "Productivity Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on February 24."
+  },
+  {
+    "month": 2,
+    "day": 25,
+    "name": "Curious Celebration",
+    "isFun": false,
+    "description": "Curious Celebration is a great excuse to do something small, fun, thoughtful, or memorable on February 25."
+  },
+  {
+    "month": 2,
+    "day": 26,
+    "name": "Bright Awareness Day",
+    "isFun": true,
+    "description": "Bright Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 26."
+  },
+  {
+    "month": 2,
+    "day": 27,
+    "name": "Global Festival",
+    "isFun": true,
+    "description": "Global Festival is a great excuse to do something small, fun, thoughtful, or memorable on February 27."
+  },
+  {
+    "month": 2,
+    "day": 28,
+    "name": "Kindness Day",
+    "isFun": false,
+    "description": "Kindness Day is a great excuse to do something small, fun, thoughtful, or memorable on February 28."
+  },
+  {
+    "month": 3,
+    "day": 1,
+    "name": "World Compliment Day",
+    "isFun": true,
+    "description": "World Compliment Day is a great excuse to do something small, fun, thoughtful, or memorable on March 1."
+  },
+  {
+    "month": 3,
+    "day": 2,
+    "name": "Coffee Day",
+    "isFun": true,
+    "description": "Coffee Day is a great excuse to do something small, fun, thoughtful, or memorable on March 2."
+  },
+  {
+    "month": 3,
+    "day": 3,
+    "name": "Tea Appreciation Day",
+    "isFun": false,
+    "description": "Tea Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on March 3."
+  },
+  {
+    "month": 3,
+    "day": 4,
+    "name": "Music Celebration",
+    "isFun": true,
+    "description": "Music Celebration is a great excuse to do something small, fun, thoughtful, or memorable on March 4."
+  },
+  {
+    "month": 3,
+    "day": 5,
+    "name": "Nature Awareness Day",
+    "isFun": true,
+    "description": "Nature Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on March 5."
+  },
+  {
+    "month": 3,
+    "day": 6,
+    "name": "Ocean Festival",
+    "isFun": false,
+    "description": "Ocean Festival is a great excuse to do something small, fun, thoughtful, or memorable on March 6."
+  },
+  {
+    "month": 3,
+    "day": 7,
+    "name": "Stargazing Day",
+    "isFun": true,
+    "description": "Stargazing Day is a great excuse to do something small, fun, thoughtful, or memorable on March 7."
+  },
+  {
+    "month": 3,
+    "day": 8,
+    "name": "Gardening Appreciation Day",
+    "isFun": true,
+    "description": "Gardening Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on March 8."
+  },
+  {
+    "month": 3,
+    "day": 9,
+    "name": "Learning Celebration",
+    "isFun": false,
+    "description": "Learning Celebration is a great excuse to do something small, fun, thoughtful, or memorable on March 9."
+  },
+  {
+    "month": 3,
+    "day": 10,
+    "name": "Memory Awareness Day",
+    "isFun": true,
+    "description": "Memory Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on March 10."
+  },
+  {
+    "month": 3,
+    "day": 11,
+    "name": "Kind Festival",
+    "isFun": true,
+    "description": "Kind Festival is a great excuse to do something small, fun, thoughtful, or memorable on March 11."
+  },
+  {
+    "month": 3,
+    "day": 12,
+    "name": "Smile Day",
+    "isFun": false,
+    "description": "Smile Day is a great excuse to do something small, fun, thoughtful, or memorable on March 12."
+  },
+  {
+    "month": 3,
+    "day": 13,
+    "name": "Adventure Appreciation Day",
+    "isFun": true,
+    "description": "Adventure Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on March 13."
+  },
+  {
+    "month": 3,
+    "day": 14,
+    "name": "Pi Day",
+    "isFun": true,
+    "description": "Pi Day is a great excuse to do something small, fun, thoughtful, or memorable on March 14."
+  },
+  {
+    "month": 3,
+    "day": 15,
+    "name": "Story Awareness Day",
+    "isFun": false,
+    "description": "Story Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on March 15."
+  },
+  {
+    "month": 3,
+    "day": 16,
+    "name": "Wellbeing Festival",
+    "isFun": true,
+    "description": "Wellbeing Festival is a great excuse to do something small, fun, thoughtful, or memorable on March 16."
+  },
+  {
+    "month": 3,
+    "day": 17,
+    "name": "Coding Day",
+    "isFun": true,
+    "description": "Coding Day is a great excuse to do something small, fun, thoughtful, or memorable on March 17."
+  },
+  {
+    "month": 3,
+    "day": 18,
+    "name": "Calendar Appreciation Day",
+    "isFun": false,
+    "description": "Calendar Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on March 18."
+  },
+  {
+    "month": 3,
+    "day": 19,
+    "name": "Moon Celebration",
+    "isFun": true,
+    "description": "Moon Celebration is a great excuse to do something small, fun, thoughtful, or memorable on March 19."
+  },
+  {
+    "month": 3,
+    "day": 20,
+    "name": "International Day of Happiness",
+    "isFun": false,
+    "description": "International Day of Happiness is a great excuse to do something small, fun, thoughtful, or memorable on March 20."
+  },
+  {
+    "month": 3,
+    "day": 21,
+    "name": "Time Festival",
+    "isFun": false,
+    "description": "Time Festival is a great excuse to do something small, fun, thoughtful, or memorable on March 21."
+  },
+  {
+    "month": 3,
+    "day": 22,
+    "name": "Productivity Day",
+    "isFun": true,
+    "description": "Productivity Day is a great excuse to do something small, fun, thoughtful, or memorable on March 22."
+  },
+  {
+    "month": 3,
+    "day": 23,
+    "name": "Curious Appreciation Day",
+    "isFun": true,
+    "description": "Curious Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on March 23."
+  },
+  {
+    "month": 3,
+    "day": 24,
+    "name": "Bright Celebration",
+    "isFun": false,
+    "description": "Bright Celebration is a great excuse to do something small, fun, thoughtful, or memorable on March 24."
+  },
+  {
+    "month": 3,
+    "day": 25,
+    "name": "Global Awareness Day",
+    "isFun": true,
+    "description": "Global Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on March 25."
+  },
+  {
+    "month": 3,
+    "day": 26,
+    "name": "Kindness Festival",
+    "isFun": true,
+    "description": "Kindness Festival is a great excuse to do something small, fun, thoughtful, or memorable on March 26."
+  },
+  {
+    "month": 3,
+    "day": 27,
+    "name": "Sunshine Day",
+    "isFun": false,
+    "description": "Sunshine Day is a great excuse to do something small, fun, thoughtful, or memorable on March 27."
+  },
+  {
+    "month": 3,
+    "day": 28,
+    "name": "Creative Appreciation Day",
+    "isFun": true,
+    "description": "Creative Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on March 28."
+  },
+  {
+    "month": 3,
+    "day": 29,
+    "name": "Puzzle Celebration",
+    "isFun": true,
+    "description": "Puzzle Celebration is a great excuse to do something small, fun, thoughtful, or memorable on March 29."
+  },
+  {
+    "month": 3,
+    "day": 30,
+    "name": "Book Awareness Day",
+    "isFun": false,
+    "description": "Book Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on March 30."
+  },
+  {
+    "month": 3,
+    "day": 31,
+    "name": "World Backup Day",
+    "isFun": true,
+    "description": "World Backup Day is a great excuse to do something small, fun, thoughtful, or memorable on March 31."
+  },
+  {
+    "month": 4,
+    "day": 1,
+    "name": "April Fools' Day",
+    "isFun": true,
+    "description": "April Fools' Day is a great excuse to do something small, fun, thoughtful, or memorable on April 1."
+  },
+  {
+    "month": 4,
+    "day": 2,
+    "name": "Music Appreciation Day",
+    "isFun": false,
+    "description": "Music Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on April 2."
+  },
+  {
+    "month": 4,
+    "day": 3,
+    "name": "Nature Celebration",
+    "isFun": true,
+    "description": "Nature Celebration is a great excuse to do something small, fun, thoughtful, or memorable on April 3."
+  },
+  {
+    "month": 4,
+    "day": 4,
+    "name": "Ocean Awareness Day",
+    "isFun": true,
+    "description": "Ocean Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on April 4."
+  },
+  {
+    "month": 4,
+    "day": 5,
+    "name": "Stargazing Festival",
+    "isFun": false,
+    "description": "Stargazing Festival is a great excuse to do something small, fun, thoughtful, or memorable on April 5."
+  },
+  {
+    "month": 4,
+    "day": 6,
+    "name": "Gardening Day",
+    "isFun": true,
+    "description": "Gardening Day is a great excuse to do something small, fun, thoughtful, or memorable on April 6."
+  },
+  {
+    "month": 4,
+    "day": 7,
+    "name": "World Health Day",
+    "isFun": false,
+    "description": "World Health Day is a great excuse to do something small, fun, thoughtful, or memorable on April 7."
+  },
+  {
+    "month": 4,
+    "day": 8,
+    "name": "Memory Celebration",
+    "isFun": false,
+    "description": "Memory Celebration is a great excuse to do something small, fun, thoughtful, or memorable on April 8."
+  },
+  {
+    "month": 4,
+    "day": 9,
+    "name": "Kind Awareness Day",
+    "isFun": true,
+    "description": "Kind Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on April 9."
+  },
+  {
+    "month": 4,
+    "day": 10,
+    "name": "Smile Festival",
+    "isFun": true,
+    "description": "Smile Festival is a great excuse to do something small, fun, thoughtful, or memorable on April 10."
+  },
+  {
+    "month": 4,
+    "day": 11,
+    "name": "Adventure Day",
+    "isFun": false,
+    "description": "Adventure Day is a great excuse to do something small, fun, thoughtful, or memorable on April 11."
+  },
+  {
+    "month": 4,
+    "day": 12,
+    "name": "Photo Appreciation Day",
+    "isFun": true,
+    "description": "Photo Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on April 12."
+  },
+  {
+    "month": 4,
+    "day": 13,
+    "name": "Story Celebration",
+    "isFun": true,
+    "description": "Story Celebration is a great excuse to do something small, fun, thoughtful, or memorable on April 13."
+  },
+  {
+    "month": 4,
+    "day": 14,
+    "name": "Wellbeing Awareness Day",
+    "isFun": false,
+    "description": "Wellbeing Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on April 14."
+  },
+  {
+    "month": 4,
+    "day": 15,
+    "name": "Coding Festival",
+    "isFun": true,
+    "description": "Coding Festival is a great excuse to do something small, fun, thoughtful, or memorable on April 15."
+  },
+  {
+    "month": 4,
+    "day": 16,
+    "name": "Calendar Day",
+    "isFun": true,
+    "description": "Calendar Day is a great excuse to do something small, fun, thoughtful, or memorable on April 16."
+  },
+  {
+    "month": 4,
+    "day": 17,
+    "name": "Moon Appreciation Day",
+    "isFun": false,
+    "description": "Moon Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on April 17."
+  },
+  {
+    "month": 4,
+    "day": 18,
+    "name": "Zodiac Celebration",
+    "isFun": true,
+    "description": "Zodiac Celebration is a great excuse to do something small, fun, thoughtful, or memorable on April 18."
+  },
+  {
+    "month": 4,
+    "day": 19,
+    "name": "Time Awareness Day",
+    "isFun": true,
+    "description": "Time Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on April 19."
+  },
+  {
+    "month": 4,
+    "day": 20,
+    "name": "Productivity Festival",
+    "isFun": false,
+    "description": "Productivity Festival is a great excuse to do something small, fun, thoughtful, or memorable on April 20."
+  },
+  {
+    "month": 4,
+    "day": 21,
+    "name": "Curious Day",
+    "isFun": true,
+    "description": "Curious Day is a great excuse to do something small, fun, thoughtful, or memorable on April 21."
+  },
+  {
+    "month": 4,
+    "day": 22,
+    "name": "Earth Day",
+    "isFun": false,
+    "description": "Earth Day is a great excuse to do something small, fun, thoughtful, or memorable on April 22."
+  },
+  {
+    "month": 4,
+    "day": 23,
+    "name": "Global Celebration",
+    "isFun": false,
+    "description": "Global Celebration is a great excuse to do something small, fun, thoughtful, or memorable on April 23."
+  },
+  {
+    "month": 4,
+    "day": 24,
+    "name": "Kindness Awareness Day",
+    "isFun": true,
+    "description": "Kindness Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on April 24."
+  },
+  {
+    "month": 4,
+    "day": 25,
+    "name": "Sunshine Festival",
+    "isFun": true,
+    "description": "Sunshine Festival is a great excuse to do something small, fun, thoughtful, or memorable on April 25."
+  },
+  {
+    "month": 4,
+    "day": 26,
+    "name": "Creative Day",
+    "isFun": false,
+    "description": "Creative Day is a great excuse to do something small, fun, thoughtful, or memorable on April 26."
+  },
+  {
+    "month": 4,
+    "day": 27,
+    "name": "Puzzle Appreciation Day",
+    "isFun": true,
+    "description": "Puzzle Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on April 27."
+  },
+  {
+    "month": 4,
+    "day": 28,
+    "name": "Book Celebration",
+    "isFun": true,
+    "description": "Book Celebration is a great excuse to do something small, fun, thoughtful, or memorable on April 28."
+  },
+  {
+    "month": 4,
+    "day": 29,
+    "name": "Coffee Awareness Day",
+    "isFun": false,
+    "description": "Coffee Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on April 29."
+  },
+  {
+    "month": 4,
+    "day": 30,
+    "name": "International Jazz Day",
+    "isFun": false,
+    "description": "International Jazz Day is a great excuse to do something small, fun, thoughtful, or memorable on April 30."
+  },
+  {
+    "month": 5,
+    "day": 1,
+    "name": "Nature Appreciation Day",
+    "isFun": false,
+    "description": "Nature Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on May 1."
+  },
+  {
+    "month": 5,
+    "day": 2,
+    "name": "Ocean Celebration",
+    "isFun": true,
+    "description": "Ocean Celebration is a great excuse to do something small, fun, thoughtful, or memorable on May 2."
+  },
+  {
+    "month": 5,
+    "day": 3,
+    "name": "Stargazing Awareness Day",
+    "isFun": true,
+    "description": "Stargazing Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on May 3."
+  },
+  {
+    "month": 5,
+    "day": 4,
+    "name": "Star Wars Day",
+    "isFun": true,
+    "description": "Star Wars Day is a great excuse to do something small, fun, thoughtful, or memorable on May 4."
+  },
+  {
+    "month": 5,
+    "day": 5,
+    "name": "Learning Day",
+    "isFun": true,
+    "description": "Learning Day is a great excuse to do something small, fun, thoughtful, or memorable on May 5."
+  },
+  {
+    "month": 5,
+    "day": 6,
+    "name": "Memory Appreciation Day",
+    "isFun": true,
+    "description": "Memory Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on May 6."
+  },
+  {
+    "month": 5,
+    "day": 7,
+    "name": "Kind Celebration",
+    "isFun": false,
+    "description": "Kind Celebration is a great excuse to do something small, fun, thoughtful, or memorable on May 7."
+  },
+  {
+    "month": 5,
+    "day": 8,
+    "name": "Smile Awareness Day",
+    "isFun": true,
+    "description": "Smile Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on May 8."
+  },
+  {
+    "month": 5,
+    "day": 9,
+    "name": "Adventure Festival",
+    "isFun": true,
+    "description": "Adventure Festival is a great excuse to do something small, fun, thoughtful, or memorable on May 9."
+  },
+  {
+    "month": 5,
+    "day": 10,
+    "name": "Photo Day",
+    "isFun": false,
+    "description": "Photo Day is a great excuse to do something small, fun, thoughtful, or memorable on May 10."
+  },
+  {
+    "month": 5,
+    "day": 11,
+    "name": "Story Appreciation Day",
+    "isFun": true,
+    "description": "Story Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on May 11."
+  },
+  {
+    "month": 5,
+    "day": 12,
+    "name": "Wellbeing Celebration",
+    "isFun": true,
+    "description": "Wellbeing Celebration is a great excuse to do something small, fun, thoughtful, or memorable on May 12."
+  },
+  {
+    "month": 5,
+    "day": 13,
+    "name": "Coding Awareness Day",
+    "isFun": false,
+    "description": "Coding Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on May 13."
+  },
+  {
+    "month": 5,
+    "day": 14,
+    "name": "Calendar Festival",
+    "isFun": true,
+    "description": "Calendar Festival is a great excuse to do something small, fun, thoughtful, or memorable on May 14."
+  },
+  {
+    "month": 5,
+    "day": 15,
+    "name": "Moon Day",
+    "isFun": true,
+    "description": "Moon Day is a great excuse to do something small, fun, thoughtful, or memorable on May 15."
+  },
+  {
+    "month": 5,
+    "day": 16,
+    "name": "Zodiac Appreciation Day",
+    "isFun": false,
+    "description": "Zodiac Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on May 16."
+  },
+  {
+    "month": 5,
+    "day": 17,
+    "name": "Time Celebration",
+    "isFun": true,
+    "description": "Time Celebration is a great excuse to do something small, fun, thoughtful, or memorable on May 17."
+  },
+  {
+    "month": 5,
+    "day": 18,
+    "name": "Productivity Awareness Day",
+    "isFun": true,
+    "description": "Productivity Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on May 18."
+  },
+  {
+    "month": 5,
+    "day": 19,
+    "name": "Curious Festival",
+    "isFun": false,
+    "description": "Curious Festival is a great excuse to do something small, fun, thoughtful, or memorable on May 19."
+  },
+  {
+    "month": 5,
+    "day": 20,
+    "name": "World Bee Day",
+    "isFun": false,
+    "description": "World Bee Day is a great excuse to do something small, fun, thoughtful, or memorable on May 20."
+  },
+  {
+    "month": 5,
+    "day": 21,
+    "name": "Global Appreciation Day",
+    "isFun": true,
+    "description": "Global Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on May 21."
+  },
+  {
+    "month": 5,
+    "day": 22,
+    "name": "Kindness Celebration",
+    "isFun": false,
+    "description": "Kindness Celebration is a great excuse to do something small, fun, thoughtful, or memorable on May 22."
+  },
+  {
+    "month": 5,
+    "day": 23,
+    "name": "Sunshine Awareness Day",
+    "isFun": true,
+    "description": "Sunshine Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on May 23."
+  },
+  {
+    "month": 5,
+    "day": 24,
+    "name": "Creative Festival",
+    "isFun": true,
+    "description": "Creative Festival is a great excuse to do something small, fun, thoughtful, or memorable on May 24."
+  },
+  {
+    "month": 5,
+    "day": 25,
+    "name": "Towel Day",
+    "isFun": true,
+    "description": "Towel Day is a great excuse to do something small, fun, thoughtful, or memorable on May 25."
+  },
+  {
+    "month": 5,
+    "day": 26,
+    "name": "Book Appreciation Day",
+    "isFun": true,
+    "description": "Book Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on May 26."
+  },
+  {
+    "month": 5,
+    "day": 27,
+    "name": "Coffee Celebration",
+    "isFun": true,
+    "description": "Coffee Celebration is a great excuse to do something small, fun, thoughtful, or memorable on May 27."
+  },
+  {
+    "month": 5,
+    "day": 28,
+    "name": "Tea Awareness Day",
+    "isFun": false,
+    "description": "Tea Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on May 28."
+  },
+  {
+    "month": 5,
+    "day": 29,
+    "name": "Music Festival",
+    "isFun": true,
+    "description": "Music Festival is a great excuse to do something small, fun, thoughtful, or memorable on May 29."
+  },
+  {
+    "month": 5,
+    "day": 30,
+    "name": "Nature Day",
+    "isFun": true,
+    "description": "Nature Day is a great excuse to do something small, fun, thoughtful, or memorable on May 30."
+  },
+  {
+    "month": 5,
+    "day": 31,
+    "name": "World No Tobacco Day",
+    "isFun": false,
+    "description": "World No Tobacco Day is a great excuse to do something small, fun, thoughtful, or memorable on May 31."
+  },
+  {
+    "month": 6,
+    "day": 1,
+    "name": "Stargazing Celebration",
+    "isFun": true,
+    "description": "Stargazing Celebration is a great excuse to do something small, fun, thoughtful, or memorable on June 1."
+  },
+  {
+    "month": 6,
+    "day": 2,
+    "name": "Gardening Awareness Day",
+    "isFun": true,
+    "description": "Gardening Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on June 2."
+  },
+  {
+    "month": 6,
+    "day": 3,
+    "name": "Learning Festival",
+    "isFun": false,
+    "description": "Learning Festival is a great excuse to do something small, fun, thoughtful, or memorable on June 3."
+  },
+  {
+    "month": 6,
+    "day": 4,
+    "name": "Memory Day",
+    "isFun": true,
+    "description": "Memory Day is a great excuse to do something small, fun, thoughtful, or memorable on June 4."
+  },
+  {
+    "month": 6,
+    "day": 5,
+    "name": "Kind Appreciation Day",
+    "isFun": true,
+    "description": "Kind Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on June 5."
+  },
+  {
+    "month": 6,
+    "day": 6,
+    "name": "Smile Celebration",
+    "isFun": false,
+    "description": "Smile Celebration is a great excuse to do something small, fun, thoughtful, or memorable on June 6."
+  },
+  {
+    "month": 6,
+    "day": 7,
+    "name": "Adventure Awareness Day",
+    "isFun": true,
+    "description": "Adventure Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on June 7."
+  },
+  {
+    "month": 6,
+    "day": 8,
+    "name": "World Oceans Day",
+    "isFun": false,
+    "description": "World Oceans Day is a great excuse to do something small, fun, thoughtful, or memorable on June 8."
+  },
+  {
+    "month": 6,
+    "day": 9,
+    "name": "Story Day",
+    "isFun": false,
+    "description": "Story Day is a great excuse to do something small, fun, thoughtful, or memorable on June 9."
+  },
+  {
+    "month": 6,
+    "day": 10,
+    "name": "Wellbeing Appreciation Day",
+    "isFun": true,
+    "description": "Wellbeing Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on June 10."
+  },
+  {
+    "month": 6,
+    "day": 11,
+    "name": "Coding Celebration",
+    "isFun": true,
+    "description": "Coding Celebration is a great excuse to do something small, fun, thoughtful, or memorable on June 11."
+  },
+  {
+    "month": 6,
+    "day": 12,
+    "name": "Calendar Awareness Day",
+    "isFun": false,
+    "description": "Calendar Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on June 12."
+  },
+  {
+    "month": 6,
+    "day": 13,
+    "name": "Moon Festival",
+    "isFun": true,
+    "description": "Moon Festival is a great excuse to do something small, fun, thoughtful, or memorable on June 13."
+  },
+  {
+    "month": 6,
+    "day": 14,
+    "name": "Zodiac Day",
+    "isFun": true,
+    "description": "Zodiac Day is a great excuse to do something small, fun, thoughtful, or memorable on June 14."
+  },
+  {
+    "month": 6,
+    "day": 15,
+    "name": "Time Appreciation Day",
+    "isFun": false,
+    "description": "Time Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on June 15."
+  },
+  {
+    "month": 6,
+    "day": 16,
+    "name": "Productivity Celebration",
+    "isFun": true,
+    "description": "Productivity Celebration is a great excuse to do something small, fun, thoughtful, or memorable on June 16."
+  },
+  {
+    "month": 6,
+    "day": 17,
+    "name": "Curious Awareness Day",
+    "isFun": true,
+    "description": "Curious Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on June 17."
+  },
+  {
+    "month": 6,
+    "day": 18,
+    "name": "Bright Festival",
+    "isFun": false,
+    "description": "Bright Festival is a great excuse to do something small, fun, thoughtful, or memorable on June 18."
+  },
+  {
+    "month": 6,
+    "day": 19,
+    "name": "Juneteenth",
+    "isFun": false,
+    "description": "Juneteenth is a great excuse to do something small, fun, thoughtful, or memorable on June 19."
+  },
+  {
+    "month": 6,
+    "day": 20,
+    "name": "Kindness Appreciation Day",
+    "isFun": true,
+    "description": "Kindness Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on June 20."
+  },
+  {
+    "month": 6,
+    "day": 21,
+    "name": "World Music Day",
+    "isFun": false,
+    "description": "World Music Day is a great excuse to do something small, fun, thoughtful, or memorable on June 21."
+  },
+  {
+    "month": 6,
+    "day": 22,
+    "name": "Creative Awareness Day",
+    "isFun": true,
+    "description": "Creative Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on June 22."
+  },
+  {
+    "month": 6,
+    "day": 23,
+    "name": "Puzzle Festival",
+    "isFun": true,
+    "description": "Puzzle Festival is a great excuse to do something small, fun, thoughtful, or memorable on June 23."
+  },
+  {
+    "month": 6,
+    "day": 24,
+    "name": "Book Day",
+    "isFun": false,
+    "description": "Book Day is a great excuse to do something small, fun, thoughtful, or memorable on June 24."
+  },
+  {
+    "month": 6,
+    "day": 25,
+    "name": "Coffee Appreciation Day",
+    "isFun": true,
+    "description": "Coffee Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on June 25."
+  },
+  {
+    "month": 6,
+    "day": 26,
+    "name": "Tea Celebration",
+    "isFun": true,
+    "description": "Tea Celebration is a great excuse to do something small, fun, thoughtful, or memorable on June 26."
+  },
+  {
+    "month": 6,
+    "day": 27,
+    "name": "Music Awareness Day",
+    "isFun": false,
+    "description": "Music Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on June 27."
+  },
+  {
+    "month": 6,
+    "day": 28,
+    "name": "Nature Festival",
+    "isFun": true,
+    "description": "Nature Festival is a great excuse to do something small, fun, thoughtful, or memorable on June 28."
+  },
+  {
+    "month": 6,
+    "day": 29,
+    "name": "Ocean Day",
+    "isFun": true,
+    "description": "Ocean Day is a great excuse to do something small, fun, thoughtful, or memorable on June 29."
+  },
+  {
+    "month": 6,
+    "day": 30,
+    "name": "Social Media Day",
+    "isFun": true,
+    "description": "Social Media Day is a great excuse to do something small, fun, thoughtful, or memorable on June 30."
+  },
+  {
+    "month": 7,
+    "day": 1,
+    "name": "Learning Awareness Day",
+    "isFun": true,
+    "description": "Learning Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 1."
+  },
+  {
+    "month": 7,
+    "day": 2,
+    "name": "Memory Festival",
+    "isFun": false,
+    "description": "Memory Festival is a great excuse to do something small, fun, thoughtful, or memorable on July 2."
+  },
+  {
+    "month": 7,
+    "day": 3,
+    "name": "Kind Day",
+    "isFun": true,
+    "description": "Kind Day is a great excuse to do something small, fun, thoughtful, or memorable on July 3."
+  },
+  {
+    "month": 7,
+    "day": 4,
+    "name": "Smile Appreciation Day",
+    "isFun": true,
+    "description": "Smile Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 4."
+  },
+  {
+    "month": 7,
+    "day": 5,
+    "name": "Adventure Celebration",
+    "isFun": false,
+    "description": "Adventure Celebration is a great excuse to do something small, fun, thoughtful, or memorable on July 5."
+  },
+  {
+    "month": 7,
+    "day": 6,
+    "name": "Photo Awareness Day",
+    "isFun": true,
+    "description": "Photo Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 6."
+  },
+  {
+    "month": 7,
+    "day": 7,
+    "name": "World Chocolate Day",
+    "isFun": true,
+    "description": "World Chocolate Day is a great excuse to do something small, fun, thoughtful, or memorable on July 7."
+  },
+  {
+    "month": 7,
+    "day": 8,
+    "name": "Wellbeing Day",
+    "isFun": false,
+    "description": "Wellbeing Day is a great excuse to do something small, fun, thoughtful, or memorable on July 8."
+  },
+  {
+    "month": 7,
+    "day": 9,
+    "name": "Coding Appreciation Day",
+    "isFun": true,
+    "description": "Coding Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 9."
+  },
+  {
+    "month": 7,
+    "day": 10,
+    "name": "Calendar Celebration",
+    "isFun": true,
+    "description": "Calendar Celebration is a great excuse to do something small, fun, thoughtful, or memorable on July 10."
+  },
+  {
+    "month": 7,
+    "day": 11,
+    "name": "Moon Awareness Day",
+    "isFun": false,
+    "description": "Moon Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 11."
+  },
+  {
+    "month": 7,
+    "day": 12,
+    "name": "Zodiac Festival",
+    "isFun": true,
+    "description": "Zodiac Festival is a great excuse to do something small, fun, thoughtful, or memorable on July 12."
+  },
+  {
+    "month": 7,
+    "day": 13,
+    "name": "Time Day",
+    "isFun": true,
+    "description": "Time Day is a great excuse to do something small, fun, thoughtful, or memorable on July 13."
+  },
+  {
+    "month": 7,
+    "day": 14,
+    "name": "Productivity Appreciation Day",
+    "isFun": false,
+    "description": "Productivity Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 14."
+  },
+  {
+    "month": 7,
+    "day": 15,
+    "name": "Curious Celebration",
+    "isFun": true,
+    "description": "Curious Celebration is a great excuse to do something small, fun, thoughtful, or memorable on July 15."
+  },
+  {
+    "month": 7,
+    "day": 16,
+    "name": "Bright Awareness Day",
+    "isFun": true,
+    "description": "Bright Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 16."
+  },
+  {
+    "month": 7,
+    "day": 17,
+    "name": "World Emoji Day",
+    "isFun": true,
+    "description": "World Emoji Day is a great excuse to do something small, fun, thoughtful, or memorable on July 17."
+  },
+  {
+    "month": 7,
+    "day": 18,
+    "name": "Kindness Day",
+    "isFun": true,
+    "description": "Kindness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 18."
+  },
+  {
+    "month": 7,
+    "day": 19,
+    "name": "Sunshine Appreciation Day",
+    "isFun": true,
+    "description": "Sunshine Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 19."
+  },
+  {
+    "month": 7,
+    "day": 20,
+    "name": "Creative Celebration",
+    "isFun": false,
+    "description": "Creative Celebration is a great excuse to do something small, fun, thoughtful, or memorable on July 20."
+  },
+  {
+    "month": 7,
+    "day": 21,
+    "name": "Puzzle Awareness Day",
+    "isFun": true,
+    "description": "Puzzle Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 21."
+  },
+  {
+    "month": 7,
+    "day": 22,
+    "name": "Pi Approximation Day",
+    "isFun": true,
+    "description": "Pi Approximation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 22."
+  },
+  {
+    "month": 7,
+    "day": 23,
+    "name": "Coffee Day",
+    "isFun": false,
+    "description": "Coffee Day is a great excuse to do something small, fun, thoughtful, or memorable on July 23."
+  },
+  {
+    "month": 7,
+    "day": 24,
+    "name": "Tea Appreciation Day",
+    "isFun": true,
+    "description": "Tea Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 24."
+  },
+  {
+    "month": 7,
+    "day": 25,
+    "name": "Music Celebration",
+    "isFun": true,
+    "description": "Music Celebration is a great excuse to do something small, fun, thoughtful, or memorable on July 25."
+  },
+  {
+    "month": 7,
+    "day": 26,
+    "name": "Nature Awareness Day",
+    "isFun": false,
+    "description": "Nature Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 26."
+  },
+  {
+    "month": 7,
+    "day": 27,
+    "name": "Ocean Festival",
+    "isFun": true,
+    "description": "Ocean Festival is a great excuse to do something small, fun, thoughtful, or memorable on July 27."
+  },
+  {
+    "month": 7,
+    "day": 28,
+    "name": "Stargazing Day",
+    "isFun": true,
+    "description": "Stargazing Day is a great excuse to do something small, fun, thoughtful, or memorable on July 28."
+  },
+  {
+    "month": 7,
+    "day": 29,
+    "name": "Gardening Appreciation Day",
+    "isFun": false,
+    "description": "Gardening Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on July 29."
+  },
+  {
+    "month": 7,
+    "day": 30,
+    "name": "International Friendship Day",
+    "isFun": false,
+    "description": "International Friendship Day is a great excuse to do something small, fun, thoughtful, or memorable on July 30."
+  },
+  {
+    "month": 7,
+    "day": 31,
+    "name": "Memory Awareness Day",
+    "isFun": true,
+    "description": "Memory Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on July 31."
+  },
+  {
+    "month": 8,
+    "day": 1,
+    "name": "Kind Festival",
+    "isFun": false,
+    "description": "Kind Festival is a great excuse to do something small, fun, thoughtful, or memorable on August 1."
+  },
+  {
+    "month": 8,
+    "day": 2,
+    "name": "Smile Day",
+    "isFun": true,
+    "description": "Smile Day is a great excuse to do something small, fun, thoughtful, or memorable on August 2."
+  },
+  {
+    "month": 8,
+    "day": 3,
+    "name": "Adventure Appreciation Day",
+    "isFun": true,
+    "description": "Adventure Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on August 3."
+  },
+  {
+    "month": 8,
+    "day": 4,
+    "name": "Photo Celebration",
+    "isFun": false,
+    "description": "Photo Celebration is a great excuse to do something small, fun, thoughtful, or memorable on August 4."
+  },
+  {
+    "month": 8,
+    "day": 5,
+    "name": "Story Awareness Day",
+    "isFun": true,
+    "description": "Story Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on August 5."
+  },
+  {
+    "month": 8,
+    "day": 6,
+    "name": "Wellbeing Festival",
+    "isFun": true,
+    "description": "Wellbeing Festival is a great excuse to do something small, fun, thoughtful, or memorable on August 6."
+  },
+  {
+    "month": 8,
+    "day": 7,
+    "name": "Coding Day",
+    "isFun": false,
+    "description": "Coding Day is a great excuse to do something small, fun, thoughtful, or memorable on August 7."
+  },
+  {
+    "month": 8,
+    "day": 8,
+    "name": "International Cat Day",
+    "isFun": true,
+    "description": "International Cat Day is a great excuse to do something small, fun, thoughtful, or memorable on August 8."
+  },
+  {
+    "month": 8,
+    "day": 9,
+    "name": "Moon Celebration",
+    "isFun": true,
+    "description": "Moon Celebration is a great excuse to do something small, fun, thoughtful, or memorable on August 9."
+  },
+  {
+    "month": 8,
+    "day": 10,
+    "name": "Zodiac Awareness Day",
+    "isFun": false,
+    "description": "Zodiac Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on August 10."
+  },
+  {
+    "month": 8,
+    "day": 11,
+    "name": "Time Festival",
+    "isFun": true,
+    "description": "Time Festival is a great excuse to do something small, fun, thoughtful, or memorable on August 11."
+  },
+  {
+    "month": 8,
+    "day": 12,
+    "name": "Productivity Day",
+    "isFun": true,
+    "description": "Productivity Day is a great excuse to do something small, fun, thoughtful, or memorable on August 12."
+  },
+  {
+    "month": 8,
+    "day": 13,
+    "name": "Curious Appreciation Day",
+    "isFun": false,
+    "description": "Curious Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on August 13."
+  },
+  {
+    "month": 8,
+    "day": 14,
+    "name": "Bright Celebration",
+    "isFun": true,
+    "description": "Bright Celebration is a great excuse to do something small, fun, thoughtful, or memorable on August 14."
+  },
+  {
+    "month": 8,
+    "day": 15,
+    "name": "Global Awareness Day",
+    "isFun": true,
+    "description": "Global Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on August 15."
+  },
+  {
+    "month": 8,
+    "day": 16,
+    "name": "Kindness Festival",
+    "isFun": false,
+    "description": "Kindness Festival is a great excuse to do something small, fun, thoughtful, or memorable on August 16."
+  },
+  {
+    "month": 8,
+    "day": 17,
+    "name": "Sunshine Day",
+    "isFun": true,
+    "description": "Sunshine Day is a great excuse to do something small, fun, thoughtful, or memorable on August 17."
+  },
+  {
+    "month": 8,
+    "day": 18,
+    "name": "Creative Appreciation Day",
+    "isFun": true,
+    "description": "Creative Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on August 18."
+  },
+  {
+    "month": 8,
+    "day": 19,
+    "name": "World Photography Day",
+    "isFun": false,
+    "description": "World Photography Day is a great excuse to do something small, fun, thoughtful, or memorable on August 19."
+  },
+  {
+    "month": 8,
+    "day": 20,
+    "name": "Book Awareness Day",
+    "isFun": true,
+    "description": "Book Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on August 20."
+  },
+  {
+    "month": 8,
+    "day": 21,
+    "name": "Coffee Festival",
+    "isFun": true,
+    "description": "Coffee Festival is a great excuse to do something small, fun, thoughtful, or memorable on August 21."
+  },
+  {
+    "month": 8,
+    "day": 22,
+    "name": "Tea Day",
+    "isFun": false,
+    "description": "Tea Day is a great excuse to do something small, fun, thoughtful, or memorable on August 22."
+  },
+  {
+    "month": 8,
+    "day": 23,
+    "name": "Music Appreciation Day",
+    "isFun": true,
+    "description": "Music Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on August 23."
+  },
+  {
+    "month": 8,
+    "day": 24,
+    "name": "Nature Celebration",
+    "isFun": true,
+    "description": "Nature Celebration is a great excuse to do something small, fun, thoughtful, or memorable on August 24."
+  },
+  {
+    "month": 8,
+    "day": 25,
+    "name": "Ocean Awareness Day",
+    "isFun": false,
+    "description": "Ocean Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on August 25."
+  },
+  {
+    "month": 8,
+    "day": 26,
+    "name": "Dog Day",
+    "isFun": true,
+    "description": "Dog Day is a great excuse to do something small, fun, thoughtful, or memorable on August 26."
+  },
+  {
+    "month": 8,
+    "day": 27,
+    "name": "Gardening Day",
+    "isFun": true,
+    "description": "Gardening Day is a great excuse to do something small, fun, thoughtful, or memorable on August 27."
+  },
+  {
+    "month": 8,
+    "day": 28,
+    "name": "Learning Appreciation Day",
+    "isFun": false,
+    "description": "Learning Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on August 28."
+  },
+  {
+    "month": 8,
+    "day": 29,
+    "name": "Memory Celebration",
+    "isFun": true,
+    "description": "Memory Celebration is a great excuse to do something small, fun, thoughtful, or memorable on August 29."
+  },
+  {
+    "month": 8,
+    "day": 30,
+    "name": "Beach Day",
+    "isFun": true,
+    "description": "Beach Day is a great excuse to do something small, fun, thoughtful, or memorable on August 30."
+  },
+  {
+    "month": 8,
+    "day": 31,
+    "name": "Smile Festival",
+    "isFun": false,
+    "description": "Smile Festival is a great excuse to do something small, fun, thoughtful, or memorable on August 31."
+  },
+  {
+    "month": 9,
+    "day": 1,
+    "name": "Adventure Day",
+    "isFun": true,
+    "description": "Adventure Day is a great excuse to do something small, fun, thoughtful, or memorable on September 1."
+  },
+  {
+    "month": 9,
+    "day": 2,
+    "name": "Photo Appreciation Day",
+    "isFun": true,
+    "description": "Photo Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on September 2."
+  },
+  {
+    "month": 9,
+    "day": 3,
+    "name": "Story Celebration",
+    "isFun": false,
+    "description": "Story Celebration is a great excuse to do something small, fun, thoughtful, or memorable on September 3."
+  },
+  {
+    "month": 9,
+    "day": 4,
+    "name": "Wellbeing Awareness Day",
+    "isFun": true,
+    "description": "Wellbeing Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on September 4."
+  },
+  {
+    "month": 9,
+    "day": 5,
+    "name": "International Day of Charity",
+    "isFun": false,
+    "description": "International Day of Charity is a great excuse to do something small, fun, thoughtful, or memorable on September 5."
+  },
+  {
+    "month": 9,
+    "day": 6,
+    "name": "Calendar Day",
+    "isFun": false,
+    "description": "Calendar Day is a great excuse to do something small, fun, thoughtful, or memorable on September 6."
+  },
+  {
+    "month": 9,
+    "day": 7,
+    "name": "Moon Appreciation Day",
+    "isFun": true,
+    "description": "Moon Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on September 7."
+  },
+  {
+    "month": 9,
+    "day": 8,
+    "name": "Zodiac Celebration",
+    "isFun": true,
+    "description": "Zodiac Celebration is a great excuse to do something small, fun, thoughtful, or memorable on September 8."
+  },
+  {
+    "month": 9,
+    "day": 9,
+    "name": "Time Awareness Day",
+    "isFun": false,
+    "description": "Time Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on September 9."
+  },
+  {
+    "month": 9,
+    "day": 10,
+    "name": "Productivity Festival",
+    "isFun": true,
+    "description": "Productivity Festival is a great excuse to do something small, fun, thoughtful, or memorable on September 10."
+  },
+  {
+    "month": 9,
+    "day": 11,
+    "name": "Curious Day",
+    "isFun": true,
+    "description": "Curious Day is a great excuse to do something small, fun, thoughtful, or memorable on September 11."
+  },
+  {
+    "month": 9,
+    "day": 12,
+    "name": "Bright Appreciation Day",
+    "isFun": false,
+    "description": "Bright Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on September 12."
+  },
+  {
+    "month": 9,
+    "day": 13,
+    "name": "Positive Thinking Day",
+    "isFun": true,
+    "description": "Positive Thinking Day is a great excuse to do something small, fun, thoughtful, or memorable on September 13."
+  },
+  {
+    "month": 9,
+    "day": 14,
+    "name": "Kindness Awareness Day",
+    "isFun": true,
+    "description": "Kindness Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on September 14."
+  },
+  {
+    "month": 9,
+    "day": 15,
+    "name": "Sunshine Festival",
+    "isFun": false,
+    "description": "Sunshine Festival is a great excuse to do something small, fun, thoughtful, or memorable on September 15."
+  },
+  {
+    "month": 9,
+    "day": 16,
+    "name": "Creative Day",
+    "isFun": true,
+    "description": "Creative Day is a great excuse to do something small, fun, thoughtful, or memorable on September 16."
+  },
+  {
+    "month": 9,
+    "day": 17,
+    "name": "Puzzle Appreciation Day",
+    "isFun": true,
+    "description": "Puzzle Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on September 17."
+  },
+  {
+    "month": 9,
+    "day": 18,
+    "name": "Book Celebration",
+    "isFun": false,
+    "description": "Book Celebration is a great excuse to do something small, fun, thoughtful, or memorable on September 18."
+  },
+  {
+    "month": 9,
+    "day": 19,
+    "name": "Talk Like a Pirate Day",
+    "isFun": true,
+    "description": "Talk Like a Pirate Day is a great excuse to do something small, fun, thoughtful, or memorable on September 19."
+  },
+  {
+    "month": 9,
+    "day": 20,
+    "name": "Tea Festival",
+    "isFun": true,
+    "description": "Tea Festival is a great excuse to do something small, fun, thoughtful, or memorable on September 20."
+  },
+  {
+    "month": 9,
+    "day": 21,
+    "name": "Music Day",
+    "isFun": false,
+    "description": "Music Day is a great excuse to do something small, fun, thoughtful, or memorable on September 21."
+  },
+  {
+    "month": 9,
+    "day": 22,
+    "name": "Nature Appreciation Day",
+    "isFun": true,
+    "description": "Nature Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on September 22."
+  },
+  {
+    "month": 9,
+    "day": 23,
+    "name": "Ocean Celebration",
+    "isFun": true,
+    "description": "Ocean Celebration is a great excuse to do something small, fun, thoughtful, or memorable on September 23."
+  },
+  {
+    "month": 9,
+    "day": 24,
+    "name": "Stargazing Awareness Day",
+    "isFun": false,
+    "description": "Stargazing Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on September 24."
+  },
+  {
+    "month": 9,
+    "day": 25,
+    "name": "Gardening Festival",
+    "isFun": true,
+    "description": "Gardening Festival is a great excuse to do something small, fun, thoughtful, or memorable on September 25."
+  },
+  {
+    "month": 9,
+    "day": 26,
+    "name": "Learning Day",
+    "isFun": true,
+    "description": "Learning Day is a great excuse to do something small, fun, thoughtful, or memorable on September 26."
+  },
+  {
+    "month": 9,
+    "day": 27,
+    "name": "Memory Appreciation Day",
+    "isFun": false,
+    "description": "Memory Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on September 27."
+  },
+  {
+    "month": 9,
+    "day": 28,
+    "name": "Kind Celebration",
+    "isFun": true,
+    "description": "Kind Celebration is a great excuse to do something small, fun, thoughtful, or memorable on September 28."
+  },
+  {
+    "month": 9,
+    "day": 29,
+    "name": "World Heart Day",
+    "isFun": false,
+    "description": "World Heart Day is a great excuse to do something small, fun, thoughtful, or memorable on September 29."
+  },
+  {
+    "month": 9,
+    "day": 30,
+    "name": "Adventure Festival",
+    "isFun": false,
+    "description": "Adventure Festival is a great excuse to do something small, fun, thoughtful, or memorable on September 30."
+  },
+  {
+    "month": 10,
+    "day": 1,
+    "name": "International Coffee Day",
+    "isFun": true,
+    "description": "International Coffee Day is a great excuse to do something small, fun, thoughtful, or memorable on October 1."
+  },
+  {
+    "month": 10,
+    "day": 2,
+    "name": "Wellbeing Celebration",
+    "isFun": false,
+    "description": "Wellbeing Celebration is a great excuse to do something small, fun, thoughtful, or memorable on October 2."
+  },
+  {
+    "month": 10,
+    "day": 3,
+    "name": "Coding Awareness Day",
+    "isFun": true,
+    "description": "Coding Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on October 3."
+  },
+  {
+    "month": 10,
+    "day": 4,
+    "name": "World Animal Day",
+    "isFun": false,
+    "description": "World Animal Day is a great excuse to do something small, fun, thoughtful, or memorable on October 4."
+  },
+  {
+    "month": 10,
+    "day": 5,
+    "name": "Moon Day",
+    "isFun": false,
+    "description": "Moon Day is a great excuse to do something small, fun, thoughtful, or memorable on October 5."
+  },
+  {
+    "month": 10,
+    "day": 6,
+    "name": "Zodiac Appreciation Day",
+    "isFun": true,
+    "description": "Zodiac Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on October 6."
+  },
+  {
+    "month": 10,
+    "day": 7,
+    "name": "Time Celebration",
+    "isFun": true,
+    "description": "Time Celebration is a great excuse to do something small, fun, thoughtful, or memorable on October 7."
+  },
+  {
+    "month": 10,
+    "day": 8,
+    "name": "Productivity Awareness Day",
+    "isFun": false,
+    "description": "Productivity Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on October 8."
+  },
+  {
+    "month": 10,
+    "day": 9,
+    "name": "Curious Festival",
+    "isFun": true,
+    "description": "Curious Festival is a great excuse to do something small, fun, thoughtful, or memorable on October 9."
+  },
+  {
+    "month": 10,
+    "day": 10,
+    "name": "World Mental Health Day",
+    "isFun": false,
+    "description": "World Mental Health Day is a great excuse to do something small, fun, thoughtful, or memorable on October 10."
+  },
+  {
+    "month": 10,
+    "day": 11,
+    "name": "Global Appreciation Day",
+    "isFun": false,
+    "description": "Global Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on October 11."
+  },
+  {
+    "month": 10,
+    "day": 12,
+    "name": "Kindness Celebration",
+    "isFun": true,
+    "description": "Kindness Celebration is a great excuse to do something small, fun, thoughtful, or memorable on October 12."
+  },
+  {
+    "month": 10,
+    "day": 13,
+    "name": "Sunshine Awareness Day",
+    "isFun": true,
+    "description": "Sunshine Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on October 13."
+  },
+  {
+    "month": 10,
+    "day": 14,
+    "name": "Creative Festival",
+    "isFun": false,
+    "description": "Creative Festival is a great excuse to do something small, fun, thoughtful, or memorable on October 14."
+  },
+  {
+    "month": 10,
+    "day": 15,
+    "name": "Puzzle Day",
+    "isFun": true,
+    "description": "Puzzle Day is a great excuse to do something small, fun, thoughtful, or memorable on October 15."
+  },
+  {
+    "month": 10,
+    "day": 16,
+    "name": "Book Appreciation Day",
+    "isFun": true,
+    "description": "Book Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on October 16."
+  },
+  {
+    "month": 10,
+    "day": 17,
+    "name": "Coffee Celebration",
+    "isFun": false,
+    "description": "Coffee Celebration is a great excuse to do something small, fun, thoughtful, or memorable on October 17."
+  },
+  {
+    "month": 10,
+    "day": 18,
+    "name": "Tea Awareness Day",
+    "isFun": true,
+    "description": "Tea Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on October 18."
+  },
+  {
+    "month": 10,
+    "day": 19,
+    "name": "Music Festival",
+    "isFun": true,
+    "description": "Music Festival is a great excuse to do something small, fun, thoughtful, or memorable on October 19."
+  },
+  {
+    "month": 10,
+    "day": 20,
+    "name": "Nature Day",
+    "isFun": false,
+    "description": "Nature Day is a great excuse to do something small, fun, thoughtful, or memorable on October 20."
+  },
+  {
+    "month": 10,
+    "day": 21,
+    "name": "Ocean Appreciation Day",
+    "isFun": true,
+    "description": "Ocean Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on October 21."
+  },
+  {
+    "month": 10,
+    "day": 22,
+    "name": "Stargazing Celebration",
+    "isFun": true,
+    "description": "Stargazing Celebration is a great excuse to do something small, fun, thoughtful, or memorable on October 22."
+  },
+  {
+    "month": 10,
+    "day": 23,
+    "name": "Gardening Awareness Day",
+    "isFun": false,
+    "description": "Gardening Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on October 23."
+  },
+  {
+    "month": 10,
+    "day": 24,
+    "name": "Learning Festival",
+    "isFun": true,
+    "description": "Learning Festival is a great excuse to do something small, fun, thoughtful, or memorable on October 24."
+  },
+  {
+    "month": 10,
+    "day": 25,
+    "name": "Memory Day",
+    "isFun": true,
+    "description": "Memory Day is a great excuse to do something small, fun, thoughtful, or memorable on October 25."
+  },
+  {
+    "month": 10,
+    "day": 26,
+    "name": "Kind Appreciation Day",
+    "isFun": false,
+    "description": "Kind Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on October 26."
+  },
+  {
+    "month": 10,
+    "day": 27,
+    "name": "Smile Celebration",
+    "isFun": true,
+    "description": "Smile Celebration is a great excuse to do something small, fun, thoughtful, or memorable on October 27."
+  },
+  {
+    "month": 10,
+    "day": 28,
+    "name": "Adventure Awareness Day",
+    "isFun": true,
+    "description": "Adventure Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on October 28."
+  },
+  {
+    "month": 10,
+    "day": 29,
+    "name": "Photo Festival",
+    "isFun": false,
+    "description": "Photo Festival is a great excuse to do something small, fun, thoughtful, or memorable on October 29."
+  },
+  {
+    "month": 10,
+    "day": 30,
+    "name": "Story Day",
+    "isFun": true,
+    "description": "Story Day is a great excuse to do something small, fun, thoughtful, or memorable on October 30."
+  },
+  {
+    "month": 10,
+    "day": 31,
+    "name": "Halloween",
+    "isFun": true,
+    "description": "Halloween is a great excuse to do something small, fun, thoughtful, or memorable on October 31."
+  },
+  {
+    "month": 11,
+    "day": 1,
+    "name": "Coding Celebration",
+    "isFun": false,
+    "description": "Coding Celebration is a great excuse to do something small, fun, thoughtful, or memorable on November 1."
+  },
+  {
+    "month": 11,
+    "day": 2,
+    "name": "Calendar Awareness Day",
+    "isFun": true,
+    "description": "Calendar Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 2."
+  },
+  {
+    "month": 11,
+    "day": 3,
+    "name": "Moon Festival",
+    "isFun": true,
+    "description": "Moon Festival is a great excuse to do something small, fun, thoughtful, or memorable on November 3."
+  },
+  {
+    "month": 11,
+    "day": 4,
+    "name": "Zodiac Day",
+    "isFun": false,
+    "description": "Zodiac Day is a great excuse to do something small, fun, thoughtful, or memorable on November 4."
+  },
+  {
+    "month": 11,
+    "day": 5,
+    "name": "Time Appreciation Day",
+    "isFun": true,
+    "description": "Time Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on November 5."
+  },
+  {
+    "month": 11,
+    "day": 6,
+    "name": "Productivity Celebration",
+    "isFun": true,
+    "description": "Productivity Celebration is a great excuse to do something small, fun, thoughtful, or memorable on November 6."
+  },
+  {
+    "month": 11,
+    "day": 7,
+    "name": "Curious Awareness Day",
+    "isFun": false,
+    "description": "Curious Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 7."
+  },
+  {
+    "month": 11,
+    "day": 8,
+    "name": "Bright Festival",
+    "isFun": true,
+    "description": "Bright Festival is a great excuse to do something small, fun, thoughtful, or memorable on November 8."
+  },
+  {
+    "month": 11,
+    "day": 9,
+    "name": "Global Day",
+    "isFun": true,
+    "description": "Global Day is a great excuse to do something small, fun, thoughtful, or memorable on November 9."
+  },
+  {
+    "month": 11,
+    "day": 10,
+    "name": "Kindness Appreciation Day",
+    "isFun": false,
+    "description": "Kindness Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on November 10."
+  },
+  {
+    "month": 11,
+    "day": 11,
+    "name": "Sunshine Celebration",
+    "isFun": true,
+    "description": "Sunshine Celebration is a great excuse to do something small, fun, thoughtful, or memorable on November 11."
+  },
+  {
+    "month": 11,
+    "day": 12,
+    "name": "Creative Awareness Day",
+    "isFun": true,
+    "description": "Creative Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 12."
+  },
+  {
+    "month": 11,
+    "day": 13,
+    "name": "World Kindness Day",
+    "isFun": false,
+    "description": "World Kindness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 13."
+  },
+  {
+    "month": 11,
+    "day": 14,
+    "name": "Book Day",
+    "isFun": true,
+    "description": "Book Day is a great excuse to do something small, fun, thoughtful, or memorable on November 14."
+  },
+  {
+    "month": 11,
+    "day": 15,
+    "name": "Coffee Appreciation Day",
+    "isFun": true,
+    "description": "Coffee Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on November 15."
+  },
+  {
+    "month": 11,
+    "day": 16,
+    "name": "Tea Celebration",
+    "isFun": false,
+    "description": "Tea Celebration is a great excuse to do something small, fun, thoughtful, or memorable on November 16."
+  },
+  {
+    "month": 11,
+    "day": 17,
+    "name": "Music Awareness Day",
+    "isFun": true,
+    "description": "Music Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 17."
+  },
+  {
+    "month": 11,
+    "day": 18,
+    "name": "Nature Festival",
+    "isFun": true,
+    "description": "Nature Festival is a great excuse to do something small, fun, thoughtful, or memorable on November 18."
+  },
+  {
+    "month": 11,
+    "day": 19,
+    "name": "World Toilet Day",
+    "isFun": true,
+    "description": "World Toilet Day is a great excuse to do something small, fun, thoughtful, or memorable on November 19."
+  },
+  {
+    "month": 11,
+    "day": 20,
+    "name": "Stargazing Appreciation Day",
+    "isFun": true,
+    "description": "Stargazing Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on November 20."
+  },
+  {
+    "month": 11,
+    "day": 21,
+    "name": "Gardening Celebration",
+    "isFun": true,
+    "description": "Gardening Celebration is a great excuse to do something small, fun, thoughtful, or memorable on November 21."
+  },
+  {
+    "month": 11,
+    "day": 22,
+    "name": "Learning Awareness Day",
+    "isFun": false,
+    "description": "Learning Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 22."
+  },
+  {
+    "month": 11,
+    "day": 23,
+    "name": "Memory Festival",
+    "isFun": true,
+    "description": "Memory Festival is a great excuse to do something small, fun, thoughtful, or memorable on November 23."
+  },
+  {
+    "month": 11,
+    "day": 24,
+    "name": "Kind Day",
+    "isFun": true,
+    "description": "Kind Day is a great excuse to do something small, fun, thoughtful, or memorable on November 24."
+  },
+  {
+    "month": 11,
+    "day": 25,
+    "name": "Smile Appreciation Day",
+    "isFun": false,
+    "description": "Smile Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on November 25."
+  },
+  {
+    "month": 11,
+    "day": 26,
+    "name": "Adventure Celebration",
+    "isFun": true,
+    "description": "Adventure Celebration is a great excuse to do something small, fun, thoughtful, or memorable on November 26."
+  },
+  {
+    "month": 11,
+    "day": 27,
+    "name": "Photo Awareness Day",
+    "isFun": true,
+    "description": "Photo Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on November 27."
+  },
+  {
+    "month": 11,
+    "day": 28,
+    "name": "French Toast Day",
+    "isFun": true,
+    "description": "French Toast Day is a great excuse to do something small, fun, thoughtful, or memorable on November 28."
+  },
+  {
+    "month": 11,
+    "day": 29,
+    "name": "Wellbeing Day",
+    "isFun": true,
+    "description": "Wellbeing Day is a great excuse to do something small, fun, thoughtful, or memorable on November 29."
+  },
+  {
+    "month": 11,
+    "day": 30,
+    "name": "Stay Home Because You're Well Day",
+    "isFun": true,
+    "description": "Stay Home Because You're Well Day is a great excuse to do something small, fun, thoughtful, or memorable on November 30."
+  },
+  {
+    "month": 12,
+    "day": 1,
+    "name": "Moon Awareness Day",
+    "isFun": true,
+    "description": "Moon Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 1."
+  },
+  {
+    "month": 12,
+    "day": 2,
+    "name": "Zodiac Festival",
+    "isFun": true,
+    "description": "Zodiac Festival is a great excuse to do something small, fun, thoughtful, or memorable on December 2."
+  },
+  {
+    "month": 12,
+    "day": 3,
+    "name": "Time Day",
+    "isFun": false,
+    "description": "Time Day is a great excuse to do something small, fun, thoughtful, or memorable on December 3."
+  },
+  {
+    "month": 12,
+    "day": 4,
+    "name": "Wildlife Conservation Day",
+    "isFun": false,
+    "description": "Wildlife Conservation Day is a great excuse to do something small, fun, thoughtful, or memorable on December 4."
+  },
+  {
+    "month": 12,
+    "day": 5,
+    "name": "Curious Celebration",
+    "isFun": true,
+    "description": "Curious Celebration is a great excuse to do something small, fun, thoughtful, or memorable on December 5."
+  },
+  {
+    "month": 12,
+    "day": 6,
+    "name": "Bright Awareness Day",
+    "isFun": false,
+    "description": "Bright Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 6."
+  },
+  {
+    "month": 12,
+    "day": 7,
+    "name": "Global Festival",
+    "isFun": true,
+    "description": "Global Festival is a great excuse to do something small, fun, thoughtful, or memorable on December 7."
+  },
+  {
+    "month": 12,
+    "day": 8,
+    "name": "Kindness Day",
+    "isFun": true,
+    "description": "Kindness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 8."
+  },
+  {
+    "month": 12,
+    "day": 9,
+    "name": "Sunshine Appreciation Day",
+    "isFun": false,
+    "description": "Sunshine Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on December 9."
+  },
+  {
+    "month": 12,
+    "day": 10,
+    "name": "Creative Celebration",
+    "isFun": true,
+    "description": "Creative Celebration is a great excuse to do something small, fun, thoughtful, or memorable on December 10."
+  },
+  {
+    "month": 12,
+    "day": 11,
+    "name": "Puzzle Awareness Day",
+    "isFun": true,
+    "description": "Puzzle Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 11."
+  },
+  {
+    "month": 12,
+    "day": 12,
+    "name": "Book Festival",
+    "isFun": false,
+    "description": "Book Festival is a great excuse to do something small, fun, thoughtful, or memorable on December 12."
+  },
+  {
+    "month": 12,
+    "day": 13,
+    "name": "Coffee Day",
+    "isFun": true,
+    "description": "Coffee Day is a great excuse to do something small, fun, thoughtful, or memorable on December 13."
+  },
+  {
+    "month": 12,
+    "day": 14,
+    "name": "Tea Appreciation Day",
+    "isFun": true,
+    "description": "Tea Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on December 14."
+  },
+  {
+    "month": 12,
+    "day": 15,
+    "name": "Music Celebration",
+    "isFun": false,
+    "description": "Music Celebration is a great excuse to do something small, fun, thoughtful, or memorable on December 15."
+  },
+  {
+    "month": 12,
+    "day": 16,
+    "name": "Nature Awareness Day",
+    "isFun": true,
+    "description": "Nature Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 16."
+  },
+  {
+    "month": 12,
+    "day": 17,
+    "name": "Ocean Festival",
+    "isFun": true,
+    "description": "Ocean Festival is a great excuse to do something small, fun, thoughtful, or memorable on December 17."
+  },
+  {
+    "month": 12,
+    "day": 18,
+    "name": "Stargazing Day",
+    "isFun": false,
+    "description": "Stargazing Day is a great excuse to do something small, fun, thoughtful, or memorable on December 18."
+  },
+  {
+    "month": 12,
+    "day": 19,
+    "name": "Gardening Appreciation Day",
+    "isFun": true,
+    "description": "Gardening Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on December 19."
+  },
+  {
+    "month": 12,
+    "day": 20,
+    "name": "Learning Celebration",
+    "isFun": true,
+    "description": "Learning Celebration is a great excuse to do something small, fun, thoughtful, or memorable on December 20."
+  },
+  {
+    "month": 12,
+    "day": 21,
+    "name": "Winter Solstice",
+    "isFun": false,
+    "description": "Winter Solstice is a great excuse to do something small, fun, thoughtful, or memorable on December 21."
+  },
+  {
+    "month": 12,
+    "day": 22,
+    "name": "Kind Festival",
+    "isFun": true,
+    "description": "Kind Festival is a great excuse to do something small, fun, thoughtful, or memorable on December 22."
+  },
+  {
+    "month": 12,
+    "day": 23,
+    "name": "Smile Day",
+    "isFun": true,
+    "description": "Smile Day is a great excuse to do something small, fun, thoughtful, or memorable on December 23."
+  },
+  {
+    "month": 12,
+    "day": 24,
+    "name": "Adventure Appreciation Day",
+    "isFun": false,
+    "description": "Adventure Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on December 24."
+  },
+  {
+    "month": 12,
+    "day": 25,
+    "name": "Christmas Day",
+    "isFun": false,
+    "description": "Christmas Day is a great excuse to do something small, fun, thoughtful, or memorable on December 25."
+  },
+  {
+    "month": 12,
+    "day": 26,
+    "name": "Story Awareness Day",
+    "isFun": true,
+    "description": "Story Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 26."
+  },
+  {
+    "month": 12,
+    "day": 27,
+    "name": "Wellbeing Festival",
+    "isFun": false,
+    "description": "Wellbeing Festival is a great excuse to do something small, fun, thoughtful, or memorable on December 27."
+  },
+  {
+    "month": 12,
+    "day": 28,
+    "name": "National Card Playing Day",
+    "isFun": true,
+    "description": "National Card Playing Day is a great excuse to do something small, fun, thoughtful, or memorable on December 28."
+  },
+  {
+    "month": 12,
+    "day": 29,
+    "name": "Calendar Appreciation Day",
+    "isFun": true,
+    "description": "Calendar Appreciation Day is a great excuse to do something small, fun, thoughtful, or memorable on December 29."
+  },
+  {
+    "month": 12,
+    "day": 30,
+    "name": "Moon Celebration",
+    "isFun": false,
+    "description": "Moon Celebration is a great excuse to do something small, fun, thoughtful, or memorable on December 30."
+  },
+  {
+    "month": 12,
+    "day": 31,
+    "name": "Zodiac Awareness Day",
+    "isFun": true,
+    "description": "Zodiac Awareness Day is a great excuse to do something small, fun, thoughtful, or memorable on December 31."
+  }
+]

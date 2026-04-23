@@ -1,0 +1,26 @@
+---
+import historicalEvents from '../data/historicalEvents.json';
+import celebrityBirthdays from '../data/celebrityBirthdays.json';
+const searchData = [
+  ...historicalEvents.flatMap((row) => row.events.map((event) => ({ type: 'Event', label: event, date: `${row.month}/${row.day}` }))),
+  ...celebrityBirthdays.flatMap((row) => row.people.map((person) => ({ type: 'Birthday', label: person, date: `${row.month}/${row.day}` })))
+];
+---
+<div class="card">
+  <div class="small">🔎 Search facts & birthdays</div>
+  <div class="field" style="margin-top:12px">
+    <input id="site-search" type="text" placeholder="Search by keyword or date like 3/14" />
+  </div>
+  <div id="site-search-results" class="search-results"></div>
+</div>
+<script is:inline define:vars={{ searchData }}>
+  const input = document.getElementById('site-search');
+  const results = document.getElementById('site-search-results');
+  function render(term = ''){
+    const q = term.trim().toLowerCase();
+    if(!q){ results.innerHTML = ''; return; }
+    const found = searchData.filter((item) => item.label.toLowerCase().includes(q) || item.date.includes(q)).slice(0,12);
+    results.innerHTML = found.length ? found.map((item) => `<div class="search-item"><strong>${item.type}</strong> · ${item.label}<div class="small">${item.date}</div></div>`).join('') : '<div class="search-item">No matches yet. Try a name, keyword, or date like 10/31.</div>';
+  }
+  input?.addEventListener('input', (e) => render(e.target.value));
+</script>

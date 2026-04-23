@@ -1,0 +1,110 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSection from '../components/AdSection.astro';
+import FunFactCard from '../components/FunFactCard.astro';
+import SearchBar from '../components/SearchBar.astro';
+import MoonPhaseCard from '../components/MoonPhaseCard.astro';
+import ZodiacCard from '../components/ZodiacCard.astro';
+import UniqueHolidayCard from '../components/UniqueHolidayCard.astro';
+import ProgressBar from '../components/ProgressBar.astro';
+import TimezoneWidget from '../components/TimezoneWidget.astro';
+const now = new Date();
+const start = new Date(now.getFullYear(),0,1);
+const end = new Date(now.getFullYear()+1,0,1);
+const dayOfYear = Math.floor((now - start) / 86400000) + 1;
+const totalDays = Math.floor((end - start) / 86400000);
+const left = totalDays - dayOfYear;
+const percent = Math.round(dayOfYear / totalDays * 100);
+---
+<BaseLayout title="MyCalendarTools.net — Today, Moon Phase, Zodiac, School Holidays & Countdown Tools" description="A rich date dashboard with local time, week number, day of year, moon phase, zodiac, unique holidays, school holiday planning pages, countdowns, and more.">
+  <section class="hero">
+    <div class="hero-grid">
+      <div class="card">
+        <span class="badge">📅 Today dashboard</span>
+        <h1 id="today-title">{now.toLocaleDateString('en-AU', { weekday:'long', year:'numeric', month:'long', day:'numeric' })}</h1>
+        <p>Built in the same premium dark style as MyCalcTools, but focused on dates, holidays, moon phases, zodiac, and parent-friendly school planning.</p>
+        <div class="notice" style="margin:18px 0 14px" id="country-banner">We think you're in Australia — checking your browser timezone now…</div>
+        <div class="button-row">
+          <button class="btn dark" id="copy-date-btn">Copy today’s date</button>
+          <a class="btn" href="/countdown/2026-12-25">Share Christmas countdown</a>
+        </div>
+        <div class="kpis">
+          <div class="kpi"><div class="label">Current time</div><div class="value" id="live-time">--:--:--</div></div>
+          <div class="kpi"><div class="label">Timezone</div><div class="value" id="tz-name">--</div></div>
+          <div class="kpi"><div class="label">ISO week</div><div class="value" id="week-number-box">--</div></div>
+          <div class="kpi"><div class="label">Day of year</div><div class="value">{dayOfYear}/{totalDays}</div></div>
+          <div class="kpi"><div class="label">Days left in year</div><div class="value">{left}</div></div>
+        </div>
+      </div>
+      <div class="grid">
+        <ProgressBar percent={percent} label="Year completed" />
+        <AdSection shape="vertical" slot="YOUR_VERTICAL_SLOT" />
+      </div>
+    </div>
+  </section>
+
+  <section class="section grid grid-2">
+    <MoonPhaseCard date={now} />
+    <ZodiacCard date={now} />
+    <UniqueHolidayCard date={now} />
+    <TimezoneWidget />
+  </section>
+
+  <section class="section">
+    <div class="card">
+      <div class="small">🧰 Quick tools</div>
+      <div class="tool-grid" style="margin-top:16px">
+        <a href="/between" class="card tool-card"><span class="icon">📆</span><span class="title">Days Between</span><p>Count exact days between two dates, with optional weekend exclusion.</p></a>
+        <a href="/weeks" class="card tool-card"><span class="icon">📊</span><span class="title">Weeks Between</span><p>Find full weeks plus leftover days, and compare ISO week numbers.</p></a>
+        <a href="/week-number" class="card tool-card"><span class="icon">🗓️</span><span class="title">Week Number</span><p>Enter any date and get its ISO week, start date, and end date.</p></a>
+        <a href="/moon-phase" class="card tool-card"><span class="icon">🌙</span><span class="title">Moon Phase</span><p>Check moon phase, illumination, moonrise, moonset, and full-moon timing.</p></a>
+        <a href="/school-holidays" class="card tool-card"><span class="icon">🏫</span><span class="title">School Holidays</span><p>Explore 2025, 2026, and 2027 planning calendars across multiple countries and regions.</p></a>
+        <a href="/year-at-glance" class="card tool-card"><span class="icon">📅</span><span class="title">Year at a Glance</span><p>See a filterable school holiday table and export printable planning views.</p></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section grid grid-2">
+    <FunFactCard date={now} />
+    <SearchBar />
+  </section>
+
+  <section class="section">
+    <AdSection shape="horizontal" slot="YOUR_HORIZONTAL_SLOT" />
+  </section>
+
+  <script is:inline>
+    const mapCountry = (tz) => {
+      const entries = {
+        'Australia/Brisbane':'Australia','Australia/Sydney':'Australia','America/New_York':'United States',
+        'America/Chicago':'United States','America/Los_Angeles':'United States','Europe/London':'United Kingdom',
+        'Europe/Berlin':'Germany','Asia/Tokyo':'Japan','Asia/Seoul':'South Korea','Asia/Bangkok':'Thailand',
+        'Africa/Johannesburg':'South Africa','Pacific/Auckland':'New Zealand','America/Toronto':'Canada'
+      };
+      return entries[tz] || tz.split('/')[0].replace('_',' ');
+    };
+    const getWeekNumber = (date) => {
+      const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      const dayNum = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      const yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+      return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+    };
+    const timeEl = document.getElementById('live-time');
+    const tzEl = document.getElementById('tz-name');
+    const weekEl = document.getElementById('week-number-box');
+    const banner = document.getElementById('country-banner');
+    const btn = document.getElementById('copy-date-btn');
+    function tick(){
+      const now = new Date();
+      const tz = Intl.DateTimeFormat().resolvedOptions().timeZone;
+      tzEl.textContent = tz;
+      weekEl.textContent = `Week ${getWeekNumber(now)}`;
+      timeEl.textContent = now.toLocaleTimeString();
+      banner.textContent = `We think you're in ${mapCountry(tz)} — detected from ${tz}.`;
+    }
+    tick();
+    setInterval(tick,1000);
+    btn?.addEventListener('click', () => navigator.clipboard.writeText(new Date().toLocaleDateString('en-AU',{weekday:'long',year:'numeric',month:'long',day:'numeric'})));
+  </script>
+</BaseLayout>

@@ -1,0 +1,164 @@
+[
+  {
+    "month": 1,
+    "day": 17,
+    "people": [
+      "Muhammad Ali",
+      "Jim Carrey"
+    ]
+  },
+  {
+    "month": 1,
+    "day": 29,
+    "people": [
+      "Oprah Winfrey"
+    ]
+  },
+  {
+    "month": 2,
+    "day": 7,
+    "people": [
+      "Charles Dickens",
+      "Chris Rock"
+    ]
+  },
+  {
+    "month": 2,
+    "day": 11,
+    "people": [
+      "Jennifer Aniston",
+      "Thomas Edison"
+    ]
+  },
+  {
+    "month": 3,
+    "day": 14,
+    "people": [
+      "Albert Einstein",
+      "Simone Biles"
+    ]
+  },
+  {
+    "month": 3,
+    "day": 26,
+    "people": [
+      "Keira Knightley"
+    ]
+  },
+  {
+    "month": 4,
+    "day": 15,
+    "people": [
+      "Leonardo da Vinci",
+      "Emma Watson"
+    ]
+  },
+  {
+    "month": 4,
+    "day": 22,
+    "people": [
+      "Jack Nicholson"
+    ]
+  },
+  {
+    "month": 5,
+    "day": 5,
+    "people": [
+      "Adele"
+    ]
+  },
+  {
+    "month": 5,
+    "day": 31,
+    "people": [
+      "Clint Eastwood",
+      "Brooke Shields"
+    ]
+  },
+  {
+    "month": 6,
+    "day": 1,
+    "people": [
+      "Morgan Freeman"
+    ]
+  },
+  {
+    "month": 6,
+    "day": 9,
+    "people": [
+      "Johnny Depp",
+      "Natalie Portman"
+    ]
+  },
+  {
+    "month": 7,
+    "day": 1,
+    "people": [
+      "Princess Diana",
+      "Pamela Anderson"
+    ]
+  },
+  {
+    "month": 7,
+    "day": 26,
+    "people": [
+      "Mick Jagger",
+      "Sandra Bullock"
+    ]
+  },
+  {
+    "month": 8,
+    "day": 15,
+    "people": [
+      "Jennifer Lawrence",
+      "Ben Affleck"
+    ]
+  },
+  {
+    "month": 8,
+    "day": 19,
+    "people": [
+      "Coco Chanel",
+      "Matthew Perry"
+    ]
+  },
+  {
+    "month": 9,
+    "day": 21,
+    "people": [
+      "Stephen King",
+      "Bill Murray"
+    ]
+  },
+  {
+    "month": 10,
+    "day": 15,
+    "people": [
+      "Friedrich Nietzsche"
+    ]
+  },
+  {
+    "month": 11,
+    "day": 11,
+    "people": [
+      "Leonardo DiCaprio",
+      "Demi Moore"
+    ]
+  },
+  {
+    "month": 12,
+    "day": 13,
+    "people": [
+      "Taylor Swift",
+      "Jamie Foxx"
+    ]
+  },
+  {
+    "month": 12,
+    "day": 18,
+    "people": [
+      "Brad Pitt",
+      "Steven Spielberg"
+    ]
+  }
+]

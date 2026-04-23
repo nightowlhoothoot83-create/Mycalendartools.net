@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Week Number Calculator | MyCalendarTools" description="Enter any date to get the ISO week number, week year, and week start/end dates.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Week Number</span></div>
+    <h1>🗓️ Week Number Calculator</h1>
+    <p>Pick any date and instantly get the ISO week number, the calendar year that week belongs to, and the Monday–Sunday range for that week.</p>
+  </div>
+  <div class="card">
+    <div class="field"><label for="wnDate">Choose a date</label><input id="wnDate" type="date" /></div>
+    <button class="btn" id="wnBtn">Get week number</button>
+    <div id="wnResult" class="result"></div>
+  </div>
+  <script is:inline>
+    const input = document.getElementById('wnDate');
+    input.value = new Date().toISOString().slice(0,10);
+    function getWeekData(date){
+      const d = new Date(Date.UTC(date.getFullYear(),date.getMonth(),date.getDate()));
+      const dayNum = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      const weekYear = d.getUTCFullYear();
+      const yearStart = new Date(Date.UTC(weekYear,0,1));
+      const weekNumber = Math.ceil((((d - yearStart)/86400000)+1)/7);
+      const monday = new Date(d); monday.setUTCDate(d.getUTCDate()-3);
+      const sunday = new Date(monday); sunday.setUTCDate(monday.getUTCDate()+6);
+      return {weekYear, weekNumber, monday, sunday};
+    }
+    document.getElementById('wnBtn').addEventListener('click',() => {
+      const dt = new Date(input.value);
+      const data = getWeekData(dt);
+      document.getElementById('wnResult').innerHTML = `<div class="mega">Week ${data.weekNumber}</div><p>Belongs to ${data.weekYear}</p><p>Week starts ${data.monday.toISOString().slice(0,10)} and ends ${data.sunday.toISOString().slice(0,10)}.</p>`;
+    });
+    document.getElementById('wnBtn').click();
+  </script>
+</BaseLayout>

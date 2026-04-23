@@ -1,0 +1,31 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="Contact MyCalendarTools" description="Get in touch about updates, bugs, partnerships, or school holiday data.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Contact</span></div>
+    <h1>Contact</h1>
+    <p>Questions, update requests, sponsorship enquiries, or bug reports can all go here.</p>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <form action="mailto:ascensiondigitalagency@outlook.com" method="post" enctype="text/plain">
+        <div class="field"><label>Name</label><input name="name" required /></div>
+        <div class="field"><label>Email</label><input type="email" name="email" required /></div>
+        <div class="field"><label>Message</label><textarea name="message" rows="7" required></textarea></div>
+        <button class="btn" type="submit">Send message</button>
+      </form>
+    </div>
+    <div class="card">
+      <h2>FAQ</h2>
+      <div class="grid">
+        <div class="muted-box"><strong>Are school holiday dates official?</strong><br/>They are planning-friendly modeled calendars and should be checked against local education authorities before bookings.</div>
+        <div class="muted-box"><strong>Does the API cost anything?</strong><br/>No. The public daily endpoint is free and intended for light developer use.</div>
+        <div class="muted-box"><strong>Can I request a new countdown?</strong><br/>Yes. If it has recurring search demand, it’s a good candidate.</div>
+        <div class="muted-box"><strong>Do you collect signups to use the tools?</strong><br/>No. The site is designed to stay friction-light.</div>
+        <div class="muted-box"><strong>Can I share or embed a countdown?</strong><br/>Yes. Countdown pages include share actions and embed code.</div>
+        <div class="muted-box"><strong>How do I report a date issue?</strong><br/>Email ascensiondigitalagency@outlook.com with the page URL and the correction.</div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

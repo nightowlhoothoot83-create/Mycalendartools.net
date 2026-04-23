@@ -1,0 +1,25 @@
+<div class="card">
+  <div class="small">🌍 Major city clocks</div>
+  <div class="grid grid-3" style="margin-top:14px" id="tz-grid"></div>
+</div>
+<script is:inline>
+  const cities = [
+    ['New York','America/New_York'],
+    ['London','Europe/London'],
+    ['Sydney','Australia/Sydney'],
+    ['Tokyo','Asia/Tokyo'],
+    ['Dubai','Asia/Dubai'],
+    ['Los Angeles','America/Los_Angeles']
+  ];
+  const grid = document.getElementById('tz-grid');
+  function renderTz(){
+    if(!grid) return;
+    const html = cities.map(([label,tz]) => {
+      const time = new Intl.DateTimeFormat([], {hour:'2-digit', minute:'2-digit', second:'2-digit', timeZone:tz}).format(new Date());
+      return `<div class="muted-box"><div class="small">${label}</div><div style="font-family:'Syne';font-size:1.3rem">${time}</div><div class="small">${tz}</div></div>`;
+    }).join('');
+    grid.innerHTML = html;
+  }
+  renderTz();
+  setInterval(renderTz,1000);
+</script>

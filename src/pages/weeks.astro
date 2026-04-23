@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AdSection from '../components/AdSection.astro';
+---
+<BaseLayout title="Weeks Between Dates Calculator | MyCalendarTools" description="Calculate total weeks between two dates, plus remainder days and ISO week numbers.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Weeks Between</span></div>
+    <h1>📊 Weeks Between Dates</h1>
+    <p>Count the full weeks between any two dates and see which ISO week each date belongs to.</p>
+  </div>
+  <div class="sidebar-layout">
+    <div class="card">
+      <div class="grid grid-2">
+        <div class="field"><label for="weekStart">Start date</label><input type="date" id="weekStart" /></div>
+        <div class="field"><label for="weekEnd">End date</label><input type="date" id="weekEnd" /></div>
+      </div>
+      <button class="btn" id="weeksBtn">Calculate</button>
+      <div id="weeksResult" class="result"></div>
+    </div>
+    <AdSection shape="square" slot="YOUR_SQUARE_SLOT" />
+  </div>
+  <script is:inline>
+    const s = document.getElementById('weekStart');
+    const e = document.getElementById('weekEnd');
+    const res = document.getElementById('weeksResult');
+    const today = new Date(); s.value = today.toISOString().slice(0,10);
+    const inEight = new Date(); inEight.setDate(today.getDate() + 56); e.value = inEight.toISOString().slice(0,10);
+    function getWeekNumber(date) {
+      const d = new Date(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()));
+      const dayNum = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+      return Math.ceil((((d - yearStart) / 86400000) + 1) / 7);
+    }
+    document.getElementById('weeksBtn').addEventListener('click', () => {
+      const start = new Date(s.value), end = new Date(e.value);
+      const totalDays = Math.floor((end - start)/86400000);
+      const weeks = Math.floor(totalDays/7), days = totalDays%7;
+      res.innerHTML = `<div class="mega">${weeks} weeks</div><p>${days} extra days</p>
+      <div class="grid grid-2">
+        <div class="muted-box"><strong>Start</strong><br/>ISO week ${getWeekNumber(start)}</div>
+        <div class="muted-box"><strong>End</strong><br/>ISO week ${getWeekNumber(end)}</div>
+      </div>`;
+    });
+    document.getElementById('weeksBtn').click();
+  </script>
+</BaseLayout>

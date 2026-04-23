@@ -1,0 +1,50 @@
+
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import holidays from '../../data/holidays.json';
+const countryCards = Object.entries(holidays.years['2026']).map(([slug, country]) => ({ slug, name: country.name, regions: Object.values(country.regions).map(r => r.name).join(', ') }));
+---
+<BaseLayout title="School Holidays by Country | MyCalendarTools" description="Browse school holiday planning calendars by country and region for 2025, 2026, and 2027.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>School Holidays</span></div>
+    <h1>🏫 School Holiday Planning Pages</h1>
+    <p>Browse country pages with regions and three years of planning calendars. These pages are designed as a planning aid and should be checked against official sources before booking travel or childcare.</p>
+    <div class="hero-meta">
+      <span>12 countries</span>
+      <span>2025–2027</span>
+      <span>288+ generated pages</span>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="tool-grid">
+      {countryCards.map((country) => (
+        <a class="card tool-card" href={`/school-holidays/${country.slug}`}>
+          <span class="icon">🌍</span>
+          <span class="title">{country.name}</span>
+          <p>{country.regions}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section grid grid-2">
+    <div class="card">
+      <h2>Why this page is different</h2>
+      <p>Most school-holiday sites stop at a single year or a single country. MyCalendarTools is built to help families compare years ahead, jump between regions, and export planning data more easily.</p>
+      <ul class="info-list">
+        <li>Three years of planning-friendly data in one place</li>
+        <li>Country and region navigation designed for quick comparison</li>
+        <li>Generated pages that are easier to discover through search</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h2>Quick answers</h2>
+      <div class="mini-faq">
+        <div class="qa"><strong>Are these official school calendars?</strong><p>No. They are planning pages designed to help with early scheduling. Check your local authority before final booking decisions.</p></div>
+        <div class="qa"><strong>Can I see multiple years at once?</strong><p>Yes. Each country page shows 2025, 2026, and 2027 so you can plan further ahead.</p></div>
+        <div class="qa"><strong>Can I export or print these?</strong><p>Yes. The year-at-a-glance section includes print and calendar export support.</p></div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

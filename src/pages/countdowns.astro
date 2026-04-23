@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import featuredCountdowns from '../data/featuredCountdowns.json';
+---
+<BaseLayout title="Featured Countdowns | MyCalendarTools" description="Browse high-intent countdown pages for major holidays, life events, and planning milestones.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Featured Countdowns</span></div>
+    <h1>⏳ Featured countdowns</h1>
+    <p>These pages are built for the searches people already make: how many days until Christmas, New Year, Easter, Halloween, and other big planning dates.</p>
+    <div class="hero-meta">
+      <span>{featuredCountdowns.length} featured events</span>
+      <span>Shareable countdown routes</span>
+      <span>Built for long-tail traffic</span>
+    </div>
+  </div>
+
+  <section class="section">
+    <div class="tool-grid">
+      {featuredCountdowns.map((item) => (
+        <a class="card tool-card" href={`/how-many-days-until-${item.slug}`}>
+          <span class="icon">🎯</span>
+          <span class="title">How many days until {item.name}?</span>
+          <p>{item.description}</p>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="section grid grid-2">
+    <div class="card">
+      <h2>Why these pages matter</h2>
+      <p>Countdown searches are high intent. People use them to plan gifts, travel, campaigns, childcare, school breaks, and content calendars. These landing pages are built to convert that intent into multiple page views.</p>
+    </div>
+    <div class="card">
+      <h2>Next tools to try</h2>
+      <div class="related-links">
+        <a href="/between">Days Between</a>
+        <a href="/year-at-glance">Year at a Glance</a>
+        <a href="/school-holidays">School Holidays</a>
+        <a href="/special-dates">Special Dates</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

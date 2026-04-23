@@ -1,0 +1,19 @@
+---
+import { getMoonData } from '../lib/moonPhases.js';
+const { date = new Date() } = Astro.props;
+const moon = getMoonData(date);
+const shadow = [0,12,25,38,50,62,75,88][moon.phaseIndex];
+---
+<div class="card">
+  <div class="small">🌙 Moon phase</div>
+  <div style="display:flex;gap:18px;align-items:center;margin-top:12px">
+    <div style="width:92px;height:92px;border-radius:50%;background:radial-gradient(circle at 35% 35%, #fff 0%, #f5f7ff 45%, #ced4ff 46%, #888 100%);position:relative;overflow:hidden;border:1px solid var(--border2)">
+      <div style={`position:absolute;inset:0;background:#0b0b10;border-radius:50%;transform:translateX(${shadow-50}%);`}></div>
+    </div>
+    <div>
+      <h3 style="margin:0 0 8px">{moon.phase}</h3>
+      <p>Illumination: <strong>{moon.illumination}%</strong><br/>Moonrise: <strong>{moon.moonrise}</strong><br/>Moonset: <strong>{moon.moonset}</strong></p>
+      <p class="small">Next full moon in about {moon.nextFullMoonDays} days.</p>
+    </div>
+  </div>
+</div>

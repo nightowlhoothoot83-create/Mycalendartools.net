@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import holidays from '../data/holidays.json';
+import AdSection from '../components/AdSection.astro';
+const defaultYear = '2026';
+const countries = Object.entries(holidays.years[defaultYear]).map(([slug, country]) => ({ slug, name: country.name }));
+---
+<BaseLayout title="Year at a Glance School Holidays | MyCalendarTools" description="Filter school holiday planning calendars by year and country, then print, export PDF, or generate calendar files.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>Year at a Glance</span></div>
+    <h1>🏫 Year-at-a-Glance School Holidays</h1>
+    <p>Filter the planning calendar by year and country, print it cleanly, and export it as a simple PDF snapshot for your own reference.</p>
+  </div>
+  <div class="card">
+    <div class="grid grid-3">
+      <div class="field"><label for="yearFilter">Year</label><select id="yearFilter"><option>2025</option><option selected>2026</option><option>2027</option></select></div>
+      <div class="field"><label for="countryFilter">Country</label><select id="countryFilter">{countries.map(c => <option value={c.slug}>{c.name}</option>)}</select></div>
+      <div class="field"><label for="holidaySearch">Search region or break</label><input id="holidaySearch" placeholder="e.g. Queensland or Summer" /></div>
+    </div>
+    <div class="button-row">
+      <button class="btn" id="printPageBtn">Print</button>
+      <button class="btn secondary" id="downloadPdfBtn">Download PDF</button>
+      <a class="btn dark" href="/generated-calendars/index.json">Download .ics index</a>
+    </div>
+    <div class="table-wrap" style="margin-top:16px">
+      <table>
+        <thead><tr><th>Country</th><th>Region</th><th>Break</th><th>Start</th><th>End</th><th>Days</th></tr></thead>
+        <tbody id="holidayBody"></tbody>
+      </table>
+    </div>
+  </div>
+  <section class="section"><AdSection shape="horizontal" slot="YOUR_HORIZONTAL_SLOT" /></section>
+  <script is:inline define:vars={{ holidays }}>
+    const body = document.getElementById('holidayBody');
+    const year = document.getElementById('yearFilter');
+    const country = document.getElementById('countryFilter');
+    const search = document.getElementById('holidaySearch');
+    function render(){
+      const data = holidays.years[year.value][country.value];
+      const q = search.value.toLowerCase().trim();
+      const rows = [];
+      Object.entries(data.regions).forEach(([slug, region]) => {
+        region.breaks.forEach((item) => {
+          const hay = `${region.name} ${item.name}`.toLowerCase();
+          if(q && !hay.includes(q)) return;
+          rows.push(`<tr><td>${data.name}</td><td>${region.name}</td><td>${item.name}</td><td>${item.start}</td><td>${item.end}</td><td>${item.days}</td></tr>`);
+        });
+      });
+      body.innerHTML = rows.join('') || '<tr><td colspan="6">No matching school holiday rows for this filter.</td></tr>';
+    }
+    year.addEventListener('change', render); country.addEventListener('change', render); search.addEventListener('input', render); render();
+    document.getElementById('printPageBtn').addEventListener('click', () => window.print());
+    document.getElementById('downloadPdfBtn').addEventListener('click', async () => {
+      const { jsPDF } = await import('https://cdn.jsdelivr.net/npm/jspdf@2.5.1/+esm');
+      const pdf = new jsPDF();
+      pdf.setFontSize(18);
+      pdf.text('MyCalendarTools – Year at a Glance', 14, 18);
+      pdf.setFontSize(10);
+      pdf.text(`Year: ${year.value} · Country: ${country.options[country.selectedIndex].text}`, 14, 26);
+      let y = 36;
+      [...body.querySelectorAll('tr')].slice(0, 35).forEach((tr) => {
+        pdf.text(tr.innerText.replace(/\s+/g, ' ').slice(0, 120), 14, y);
+        y += 7;
+      });
+      pdf.save(`school-holidays-${year.value}-${country.value}.pdf`);
+    });
+  </script>
+</BaseLayout>

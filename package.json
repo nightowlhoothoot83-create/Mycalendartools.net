@@ -1,0 +1,16 @@
+{
+  "name": "mycalendartools",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "node scripts/validateData.js && astro build && node scripts/build.js",
+    "preview": "astro preview",
+    "check:data": "node scripts/validateData.js"
+  },
+  "dependencies": {
+    "astro": "^5.0.0",
+    "jspdf": "^2.5.1"
+  }
+}

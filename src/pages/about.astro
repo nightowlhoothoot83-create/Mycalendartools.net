@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="About MyCalendarTools" description="Why MyCalendarTools exists, what makes it different, and how to support the site.">
+  <div class="hero">
+    <div class="breadcrumbs"><a href="/">Home</a> / <span>About</span></div>
+    <h1>About MyCalendarTools</h1>
+    <p>MyCalendarTools is a free date utility site built to go beyond generic date pages by mixing useful tools with moon phases, zodiac data, school planning calendars, countdown pages, and searchable date trivia.</p>
+  </div>
+  <div class="grid grid-2">
+    <div class="card">
+      <h2>What makes it different</h2>
+      <ul class="list">
+        <li>Auto-detected local date and timezone cues.</li>
+        <li>Moon phase, illumination, and simple moonrise/moonset estimates built in.</li>
+        <li>Useful holiday content, not just blank date math.</li>
+        <li>2025–2027 school planning calendars across multiple countries and regions.</li>
+        <li>Free developer endpoint at <code>/api/today.json</code>.</li>
+      </ul>
+      <p>It also pairs with the sister site <a href="https://mycalctools.net" target="_blank" rel="noreferrer">MyCalcTools</a> for calculators and utility tools.</p>
+    </div>
+    <div class="card" id="support">
+      <h2>💙 Support this free site</h2>
+      <p>MyCalendarTools is free to use. If it saves you time, helps with school planning, or becomes part of your daily routine, you can support ongoing improvements and new features.</p>
+      <div class="button-row" style="margin-top:12px">
+        <a class="btn" href="https://buymeacoffee.com/YOURUSERNAME" target="_blank" rel="noreferrer">☕ Buy Me a Coffee</a>
+        <a class="btn secondary" href="https://ko-fi.com/YOURUSERNAME" target="_blank" rel="noreferrer">💛 Support on Ko-fi</a>
+      </div>
+      <p class="small" style="margin-top:12px">You can also share pages you like — especially countdowns, moon-phase pages, and school holiday calendars.</p>
+    </div>
+  </div>
+</BaseLayout>
