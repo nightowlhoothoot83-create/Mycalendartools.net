@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { getMoonData } from '../src/lib/moonPhases.js';
-import zodiac = null;
+
 import '../scripts/generateCalendarICS.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
